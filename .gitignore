@@ -9,7 +9,6 @@ lerna-debug.log*
 
 node_modules
 .DS_Store
-dist-ssr
 coverage
 *.local
 
@@ -27,5 +26,7 @@ coverage
 *.sw?
 *.tsbuildinfo
 *storybook.log
-dist
-src/pages
+
+dist/*
+!dist/data.json
+src/pages/*

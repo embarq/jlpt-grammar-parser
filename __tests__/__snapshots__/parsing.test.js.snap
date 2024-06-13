@@ -1,0 +1,3624 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`parse jlptn5-grammar-amari 1`] = `
+{
+  "definitions": {
+    "conjugation": [
+      "あまり + V（否定形）",
+      "あまり + イA（否定形）",
+      "あまり + ナA（否定形）",
+    ],
+    "jlpt": [
+      "N5",
+    ],
+    "meaning_en": [
+      ""not very"",
+      "Indicates a degree that’s not very high.",
+      "When this is used, the adjective is always used with a negative form.",
+    ],
+    "meaning_jp": [
+      "程度が高くないことを表す文型",
+    ],
+    "name": "あまり〜ない ",
+    "notes": [
+      "必ず否定の形をとる",
+    ],
+  },
+  "examples": [
+    {
+      "entries": [
+        {
+          "en": "I don't use Facebook much.",
+          "jp": "あまりFacebookは使いません。",
+          "raw": "あまりFacebookは使いません。I don't use Facebook much.",
+          "section": false,
+        },
+        {
+          "en": "I'm sorry. I don't watch TV much, so I don't know what you're talking about.",
+          "jp": "すみません。あまりテレビは見ないので、その話はわかりません。",
+          "raw": "すみません。あまりテレビは見ないので、その話はわかりません。I'm sorry. I don't watch TV much, so I don't know what you're talking about.",
+          "section": false,
+        },
+        {
+          "en": "I don't like horror movies, so I don't watch them much.",
+          "jp": "ホラー映画は苦手ですから、あまり見ません。",
+          "raw": "ホラー映画は苦手ですから、あまり見ません。I don't like horror movies, so I don't watch them much.",
+          "section": false,
+        },
+        {
+          "en": "I didn't study much yesterday.",
+          "jp": "昨日はあまり勉強しませんでした。",
+          "raw": "昨日はあまり勉強しませんでした。I didn't study much yesterday.",
+          "section": false,
+        },
+        {
+          "en": "I don't go out much on my days off.",
+          "jp": "休みの日はあまり外に出ません。",
+          "raw": "休みの日はあまり外に出ません。I don't go out much on my days off.",
+          "section": false,
+        },
+        {
+          "en": "I am not a fan of horror movies, so I don't watch many of them.",
+          "jp": "ホラー映画は苦手ですから、あまり見ません。",
+          "raw": "ホラー映画は苦手ですから、あまり見ません。I am not a fan of horror movies, so I don't watch many of them.",
+          "section": false,
+        },
+      ],
+      "section": "動詞文",
+    },
+    {
+      "entries": [
+        {
+          "en": "This movie is not very interesting.",
+          "jp": "この映画はあまり面白くないです。",
+          "raw": "この映画はあまり面白くないです。This movie is not very interesting.",
+          "section": false,
+        },
+        {
+          "en": "The food here is not very good, but it is very cheap.",
+          "jp": "ここの料理はあまり美味しくないですが、とても安いです。",
+          "raw": "ここの料理はあまり美味しくないですが、とても安いです。The food here is not very good, but it is very cheap.",
+          "section": false,
+        },
+        {
+          "en": "Hiragana is not too difficult, but katakana is difficult.",
+          "jp": "ひらがなはあまり難しくないですが、カタカナは難しいです。",
+          "raw": "ひらがなはあまり難しくないですが、カタカナは難しいです。Hiragana is not too difficult, but katakana is difficult.",
+          "section": false,
+        },
+        {
+          "en": "A: How was your test? 
+B: It was not so good.",
+          "jp": "A: テストはどうでしたか？ 
+B: あまりよくなかったです。",
+          "raw": "A：テストはどうでしたか？ B：あまりよくなかったです。A: How was your test? B: It was not so good.",
+          "section": false,
+        },
+      ],
+      "section": "い形容詞文",
+    },
+    {
+      "entries": [
+        {
+          "en": "The trains in my country are not very convenient.",
+          "jp": "私の国の電車はあまり便利じゃありません。",
+          "raw": "私の国の電車はあまり便利じゃありません。The trains in my country are not very convenient.",
+          "section": false,
+        },
+        {
+          "en": "I don't really like alcohol.",
+          "jp": "お酒はあまり好きじゃありません。",
+          "raw": "お酒はあまり好きじゃありません。I don't really like alcohol.",
+          "section": false,
+        },
+        {
+          "en": "It's not very quiet around here.",
+          "jp": "このあたりはあまり静かじゃありませんね。",
+          "raw": "このあたりはあまり静かじゃありませんね。It's not very quiet around here.",
+          "section": false,
+        },
+        {
+          "en": "My Japanese is not very good, can I speak in English?",
+          "jp": "日本語があまり上手じゃありませんから、英語で話してもいいですか。",
+          "raw": "日本語があまり上手じゃありませんから、英語で話してもいいですか。My Japanese is not very good, can I speak in English?",
+          "section": false,
+        },
+      ],
+      "section": "な形容詞文",
+    },
+  ],
+  "link": "https://nihongokyoshi-net.com/2019/12/12/jlptn5-grammar-amari-nai/",
+}
+`;
+
+exports[`parse jlptn5-grammar-atode 1`] = `
+{
+  "definitions": {
+    "conjugation": [
+      "V（タ形) + あとで",
+      "N + のあとで",
+    ],
+    "jlpt": [
+      "N5",
+    ],
+    "meaning_en": [
+      ""after"",
+    ],
+    "meaning_jp": [
+      "〜してから",
+      "前件の事柄が後件の事柄より先に起こること表す。",
+    ],
+    "name": "〜あとで",
+  },
+  "examples": [
+    {
+      "entries": [
+        {
+          "en": "After doing my homework at the library, I will go home.",
+          "jp": "図書館で宿題をしたあとで、帰ります。",
+          "raw": "図書館で宿題をしたあとで、帰ります。After doing my homework at the library, I will go home.",
+          "section": false,
+        },
+        {
+          "en": "After you have practiced a little, I will ask you to make a presentation in front of the class.",
+          "jp": "今から少し練習したあとで、前で発表してもらいます。",
+          "raw": "今から少し練習したあとで、前で発表してもらいます。After you have practiced a little, I will ask you to make a presentation in front of the class.",
+          "section": false,
+        },
+        {
+          "en": "After getting on the train, I realized that I forgot something at school.",
+          "jp": "電車に乗ったあとで、学校に忘れ物をしたことに気がつきました。",
+          "raw": "電車に乗ったあとで、学校に忘れ物をしたことに気がつきました。After getting on the train, I realized that I forgot something at school.",
+          "section": false,
+        },
+        {
+          "en": "After watching anime, I'm going to take a bath.",
+          "jp": "アニメを見たあとで、お風呂に入ります。",
+          "raw": "アニメを見たあとで、お風呂に入ります。After watching anime, I'm going to take a bath.",
+          "section": false,
+        },
+        {
+          "en": "After taking a picture with my phone, I change the color and the size a little.",
+          "jp": "スマホで写真を撮ったあとで、少し色を変えたり、サイズを変えたりします。",
+          "raw": "スマホで写真を撮ったあとで、少し色を変えたり、サイズを変えたりします。After taking a picture with my phone, I change the color and the size a little.  ",
+          "section": false,
+        },
+      ],
+      "section": "動詞文",
+    },
+    {
+      "entries": [
+        {
+          "en": "Do you want to go to karaoke after class?",
+          "jp": "授業のあとで、カラオケ行かない？",
+          "raw": "授業のあとで、カラオケ行かない？Do you want to go to karaoke after class?",
+          "section": false,
+        },
+        {
+          "en": "I'll shower after dinner.",
+          "jp": "ご飯のあとで、シャワーを浴びます。",
+          "raw": "ご飯のあとで、シャワーを浴びます。I'll shower after dinner.",
+          "section": false,
+        },
+        {
+          "en": "Let's go for a drink after work.",
+          "jp": "仕事のあとで、飲みに行きませんか。",
+          "raw": "仕事のあとで、飲みに行きませんか。Let's go for a drink after work.",
+          "section": false,
+        },
+        {
+          "en": "After the movie, do you want to go to a cafe?",
+          "jp": "映画のあとで、ちょっとカフェでもどう？",
+          "raw": "映画のあとで、ちょっとカフェでもどう？After the movie, do you want to go to a cafe?",
+          "section": false,
+        },
+        {
+          "en": "I went to a ramen shop with my colleagues after a drinking party.  「〜てから」と「〜あとで」の違",
+          "jp": "飲み会のあとで、同僚とラーメン屋に行った。",
+          "raw": "飲み会のあとで、同僚とラーメン屋に行った。I went to a ramen shop with my colleagues after a drinking party.  「〜てから」と「〜あとで」の違",
+          "section": false,
+        },
+      ],
+      "section": "名詞文",
+    },
+  ],
+  "link": "https://nihongokyoshi-net.com/2019/12/18/jlptn5-grammar-atode/",
+}
+`;
+
+exports[`parse jlptn5-grammar-dake 1`] = `
+{
+  "definitions": {
+    "[備考]": [
+      "英語の場合、onlyが名詞より先に来て「only N」と表現するが、日本語の場合は名詞が先に来て「Nだけ」となる点に注意。",
+    ],
+    "conjugation": [
+      "N + だけ",
+      "数字 + 助数詞 + だけ",
+    ],
+    "jlpt": [
+      "N5",
+    ],
+    "meaning_en": [
+      ""only"",
+      "Expresses a limitation.",
+    ],
+    "meaning_jp": [
+      "限定を表す",
+    ],
+    "name": "〜だけ",
+  },
+  "examples": [
+    {
+      "entries": [
+        {
+          "en": "My day off is only Sunday. I have to work on Saturday.",
+          "jp": "私の休みは日曜日だけです。土曜日は仕事があります。",
+          "raw": "私の休みは日曜日だけです。土曜日は仕事があります。My day off is only Sunday. I have to work on Saturday.",
+          "section": false,
+        },
+        {
+          "en": "I studied only half an hour yesterday.",
+          "jp": "昨日３０分だけ勉強しました。",
+          "raw": "昨日３０分だけ勉強しました。I studied only half an hour yesterday.",
+          "section": false,
+        },
+        {
+          "en": "I'm the only Frenchman in the class.",
+          "jp": "このクラスでフランス人は僕だけです。",
+          "raw": "このクラスでフランス人は僕だけです。I'm the only Frenchman in the class.",
+          "section": false,
+        },
+        {
+          "en": "I have only 200 yen in my wallet right now.",
+          "jp": "今、財布の中には２００円だけあります。",
+          "raw": "今、財布の中には２００円だけあります。I have only 200 yen in my wallet right now.",
+          "section": false,
+        },
+        {
+          "en": "I slept only for an hour a while ago.",
+          "jp": "さっき、１時間だけ寝ました。",
+          "raw": "さっき、１時間だけ寝ました。I slept only for an hour a while ago.",
+          "section": false,
+        },
+        {
+          "en": "Jessica was the only one who couldn't answer the question.",
+          "jp": "ジェシカさんだけ、その問題に答えられなかった。",
+          "raw": "ジェシカさんだけ、その問題に答えられなかった。Jessica was the only one who couldn't answer the question.",
+          "section": false,
+        },
+        {
+          "en": "I don't eat anything in the morning. I only drink milk.",
+          "jp": "朝は何も食べません。牛乳だけ飲みます。",
+          "raw": "朝は何も食べません。牛乳だけ飲みます。I don't eat anything in the morning. I only drink milk.",
+          "section": false,
+        },
+        {
+          "en": "I'm a vegetarian, so I don't eat meat. I eat only vegetables.",
+          "jp": "私はベジダリアンですから、肉は食べません。野菜だけ食べます。",
+          "raw": "私はベジダリアンですから、肉は食べません。野菜だけ食べます。I'm a vegetarian, so I don't eat meat. I eat only vegetables.",
+          "section": false,
+        },
+        {
+          "en": "Only Tom can understand my feelings.",
+          "jp": "トムさんだけが、私の気持ちをわかってくれる。",
+          "raw": "トムさんだけが、私の気持ちをわかってくれる。Only Tom can understand my feelings.",
+          "section": false,
+        },
+        {
+          "en": "I'll tell you a secret about myself, just for you.  この文型が登場する教科",
+          "jp": "君だけに、僕の秘密を教えてあげる。",
+          "raw": "君だけに、僕の秘密を教えてあげる。I'll tell you a secret about myself, just for you.  この文型が登場する教科",
+          "section": false,
+        },
+      ],
+      "section": null,
+    },
+  ],
+  "link": "https://nihongokyoshi-net.com/2020/02/19/jlptn5-grammar-dake/",
+}
+`;
+
+exports[`parse jlptn5-grammar-de 1`] = `
+{
+  "definitions": {
+    "jlpt": [
+      "N5",
+    ],
+    "meaning_en": [
+      ""by"",
+      "Indicates methods or means",
+    ],
+    "meaning_jp": [
+      "手段・方法を表す。",
+    ],
+    "name": "〜で（手段・方法）",
+  },
+  "examples": [
+    {
+      "entries": [
+        {
+          "en": "I will study Japanese through YouTube.",
+          "jp": "YouTubeで日本語を勉強します。",
+          "raw": "YouTubeで日本語を勉強します。I will study Japanese through YouTube.",
+          "section": false,
+        },
+        {
+          "en": "I eat rice with chopsticks.",
+          "jp": "箸でご飯を食べます。",
+          "raw": "箸でご飯を食べます。I eat rice with chopsticks.",
+          "section": false,
+        },
+        {
+          "en": "I eat sushi with my hands.",
+          "jp": "手で寿司を食べます。",
+          "raw": "手で寿司を食べます。I eat sushi with my hands.",
+          "section": false,
+        },
+        {
+          "en": "I eat steak with a fork and spoon.",
+          "jp": "フォークとスプーンでステーキを食べます。",
+          "raw": "フォークとスプーンでステーキを食べます。I eat steak with a fork and spoon.",
+          "section": false,
+        },
+        {
+          "en": "I will watch movies on my tablet.",
+          "jp": "タブレットで映画を見ます。",
+          "raw": "タブレットで映画を見ます。I will watch movies on my tablet.",
+          "section": false,
+        },
+        {
+          "en": "I go to school using my bicycle.",
+          "jp": "自転車で学校に行きます。",
+          "raw": "自転車で学校に行きます。I go to school using my bicycle.",
+          "section": false,
+        },
+        {
+          "en": "I will go to the restaurant by taxi.",
+          "jp": "タクシーでレストランに行きます。",
+          "raw": "タクシーでレストランに行きます。I will go to the restaurant by taxi.",
+          "section": false,
+        },
+        {
+          "en": "I write a letter with a pencil.",
+          "jp": "鉛筆で手紙を書きます。",
+          "raw": "鉛筆で手紙を書きます。I write a letter with a pencil.",
+          "section": false,
+        },
+        {
+          "en": "I will take pictures with my phone.",
+          "jp": "スマホで写真を撮ります。",
+          "raw": "スマホで写真を撮ります。I will take pictures with my phone.",
+          "section": false,
+        },
+        {
+          "en": "I will cut paper with scissors.  文型イラスト〜で（手段・方法）2019.8.27日本語の初中級文型「〜で（手段・方法）」の導入や練習に役立つ絵カードです。 １０枚１２０円で販売します。 購入はnotedでできます。 「〜で（手段・方法）」の絵カードを購入する...",
+          "jp": "はさみで紙を切ります。",
+          "raw": "はさみで紙を切ります。I will cut paper with scissors.  文型イラスト〜で（手段・方法）2019.8.27日本語の初中級文型「〜で（手段・方法）」の導入や練習に役立つ絵カードです。 １０枚１２０円で販売します。 購入はnotedでできます。 「〜で（手段・方法）」の絵カードを購入する...",
+          "section": false,
+        },
+      ],
+      "section": null,
+    },
+  ],
+  "link": "https://nihongokyoshi-net.com/2019/08/13/jlptn5-grammar-de/",
+}
+`;
+
+exports[`parse jlptn5-grammar-deshou 1`] = `
+{
+  "definitions": {
+    "conjugation": [
+      "V（普通形）+ でしょう",
+      "イA（普通形）+でしょう",
+      "ナA（普通形）+ でしょう 　※ナA",
+      "+ でしょう",
+      "N（普通形） + でしょう　※N",
+      "+ でしょう",
+    ],
+    "jlpt": [
+      "N5",
+    ],
+    "meaning_en": [
+      ""right"",
+      "“でしょう？” is used to seek the listener’s confirmation or agreement.",
+    ],
+    "meaning_jp": [
+      "相手に確認したり、同意を求める表現",
+    ],
+    "name": "〜でしょう",
+  },
+  "examples": [
+    {
+      "entries": [
+        {
+          "en": "A: Hey, you ate my cake from the fridge, didn't you? 
+B: I don't know.",
+          "jp": "A: ねぇ、冷蔵庫にあった私のケーキ食べたでしょう？ 
+B: 知らないよ。",
+          "raw": "A：ねぇ、冷蔵庫にあった私のケーキ食べたでしょう？ B：知らないよ。A: Hey, you ate my cake from the fridge, didn't you? B: I don't know.",
+          "section": false,
+        },
+        {
+          "en": "A: You were talking about me just now, weren't you? What were you talking about? 
+B: I wasn't talking about anything. 
+A: That's a lie! You were definitely talking about something.",
+          "jp": "A: 今、私の話してたでしょう？何話してたの？ 
+B: 何も話てないよ。 
+A: 嘘だー。絶対話してたよ。",
+          "raw": "A：今、私の話してたでしょう？何話してたの？ B：何も話てないよ。 A：嘘だー。絶対話してたよ。A: You were talking about me just now, weren't you? What were you talking about? B: I wasn't talking about anything. A: That's a lie! You were definitely talking about something.",
+          "section": false,
+        },
+        {
+          "en": "A: Tom, are you coming to the drinking party tonight? 
+B: Yeah, I'm going.",
+          "jp": "A: トムさんは今夜の飲み会に来るでしょう？ 
+B: うん、行くよ。",
+          "raw": "A：トムさんは今夜の飲み会に来るでしょう？ B：うん、行くよ。A: Tom, are you coming to the drinking party tonight? B: Yeah, I'm going.",
+          "section": false,
+        },
+        {
+          "en": "A: Oh, where's my phone? 
+B: It's probably on the desk.",
+          "jp": "A: あれー、私のスマホどこ？ 
+B: 机の上にあるでしょう？",
+          "raw": "A：あれー、私のスマホどこ？ B：机の上にあるでしょう？A: Oh, where's my phone? B: It's probably on the desk.",
+          "section": false,
+        },
+        {
+          "en": "A: You were looking at me just now, weren't you? 
+B: N-no, I wasn't!",
+          "jp": "A: 今、私のこと見てたでしょう？ 
+B: み、見てないよ！",
+          "raw": "A：今、私のこと見てたでしょう？ B：み、見てないよ！A: You were looking at me just now, weren't you? B: N-no, I wasn't!",
+          "section": false,
+        },
+        {
+          "en": "A: Tom, You like ramen, right? 
+B: Yeah, why? 
+A: There's a delicious ramen shop near the station, do you want to go together?
+B: Sure.",
+          "jp": "A: トムさんってラーメンが好きでしょう？ 
+B: うん、どうして？ 
+A: 駅前に美味しいラーメン屋さんがあるんだけど、一緒に行かない？ 
+B: いいよ。",
+          "raw": "A：トムさんってラーメンが好きでしょう？ B：うん、どうして？ A：駅前に美味しいラーメン屋さんがあるんだけど、一緒に行かない？ B：いいよ。A: Tom, You like ramen, right? B: Yeah, why? A: There's a delicious ramen shop near the station, do you want to go together?B: Sure.",
+          "section": false,
+        },
+        {
+          "en": "A: I got this from my boyfriend yesterday. Isn't it nice? 
+B: Wow, that's nice.",
+          "jp": "A: これ、昨日彼氏にもらったんだ。いいでしょう？ 
+B: え〜、いいなあ。",
+          "raw": "A：これ、昨日彼氏にもらったんだ。いいでしょう？ B：え〜、いいなあ。A: I got this from my boyfriend yesterday. Isn't it nice? B: Wow, that's nice.",
+          "section": false,
+        },
+        {
+          "en": "A: This is a souvenir I bought in Hokkaido. 
+B: It looks delicious. 
+A: It is delicious. Try it. 
+B: Wow, it's delicious! 
+A: (It's good), right?",
+          "jp": "A: これ、北海道で買ったお土産。 
+B: 美味しそう。 
+A: 美味しいよ。どうぞ食べて。 
+B: わぁ、美味しい！ 
+A: （おいしい）でしょう？",
+          "raw": "A：これ、北海道で買ったお土産。 B：美味しそう。 A：美味しいよ。どうぞ食べて。 B：わぁ、美味しい！ A：（おいしい）でしょう？A: This is a souvenir I bought in Hokkaido. B: It looks delicious. A: It is delicious. Try it. B: Wow, it's delicious! A: (It's good), right?",
+          "section": false,
+        },
+      ],
+      "section": null,
+    },
+  ],
+  "link": "https://nihongokyoshi-net.com/2020/01/29/jlptn5-grammar-deshou/",
+}
+`;
+
+exports[`parse jlptn5-grammar-donna 1`] = `
+{
+  "definitions": {
+    "conjugation": [
+      "どんな + N",
+    ],
+    "jlpt": [
+      "N5",
+    ],
+    "meaning_en": [
+      ""what kind of / what sort of"",
+      "Used when you ask about the state or the character of a person, thing, etc.",
+    ],
+    "meaning_jp": [
+      "人や物、場所の特徴",
+      "について尋ねる文型",
+    ],
+    "name": "どんな",
+  },
+  "examples": [
+    {
+      "entries": [
+        {
+          "en": "What is Malaysia like?",
+          "jp": "マレーシアはどんな国ですか。",
+          "raw": "マレーシアはどんな国ですか。What is Malaysia like?",
+          "section": false,
+        },
+        {
+          "en": "What is Bangkok like?",
+          "jp": "バンコクはどんな街ですか。",
+          "raw": "バンコクはどんな街ですか。What is Bangkok like?",
+          "section": false,
+        },
+        {
+          "en": "What kind of food is natto?",
+          "jp": "納豆はどんな食べ物ですか。",
+          "raw": "納豆はどんな食べ物ですか。What kind of food is natto?",
+          "section": false,
+        },
+        {
+          "en": "What is Mary's dad like?",
+          "jp": "メアリーさんのお父さんはどんな人ですか。",
+          "raw": "メアリーさんのお父さんはどんな人ですか。What is Mary's dad like?",
+          "section": false,
+        },
+        {
+          "en": "What type of girls/boys do you like, Kim?",
+          "jp": "キムさんはどんな人は好きですか。",
+          "raw": "キムさんはどんな人は好きですか。What type of girls/boys do you like, Kim?",
+          "section": false,
+        },
+        {
+          "en": "What kind of car does Tom want?",
+          "jp": "トムさんはどんな車が欲しいの？",
+          "raw": "トムさんはどんな車が欲しいの？What kind of car does Tom want?",
+          "section": false,
+        },
+        {
+          "en": "What is Michael's dad like?",
+          "jp": "マイケルさんのお父さんはどんな人ですか？",
+          "raw": "マイケルさんのお父さんはどんな人ですか？What is Michael's dad like?",
+          "section": false,
+        },
+        {
+          "en": "B: Macが欲しいです。
+A: What do you want, James? 
+B: I want a computer. 
+A: What kind of computer do you want? 
+B: I want a Mac.",
+          "jp": "A: ジェームスさんは今何が欲しいですか。 
+B: パソコンが欲しいです。 
+A: どんなパソコンが欲しいですか。",
+          "raw": "A：ジェームスさんは今何が欲しいですか。 B：パソコンが欲しいです。 A：どんなパソコンが欲しいですか。 B：Macが欲しいです。A: What do you want, James? B: I want a computer. A: What kind of computer do you want? B: I want a Mac.  ",
+          "section": false,
+        },
+      ],
+      "section": null,
+    },
+  ],
+  "link": "https://nihongokyoshi-net.com/2020/02/20/jlptn5-grammar-donna/",
+}
+`;
+
+exports[`parse jlptn5-grammar-douyatte 1`] = `
+{
+  "definitions": {
+    "jlpt": [
+      "N5",
+    ],
+    "meaning_en": [
+      "This is used to ask the way how to do it.",
+    ],
+    "meaning_jp": [
+      "方法を尋ねる表現。",
+    ],
+    "name": "どうやって",
+  },
+  "examples": [
+    {
+      "entries": [
+        {
+          "en": "How do you get to the station?",
+          "jp": "駅までどうやって行きますか。",
+          "raw": "駅までどうやって行きますか。How do you get to the station?",
+          "section": false,
+        },
+        {
+          "en": "How do you use this?",
+          "jp": "これはどうやって使いますか。",
+          "raw": "これはどうやって使いますか。How do you use this?",
+          "section": false,
+        },
+        {
+          "en": "How do you eat this?",
+          "jp": "これはどうやって食べますか。",
+          "raw": "これはどうやって食べますか。How do you eat this?",
+          "section": false,
+        },
+        {
+          "en": "Excuse me, how do you buy a ticket?",
+          "jp": "すみません、どうやって切符を買いますか。",
+          "raw": "すみません、どうやって切符を買いますか。Excuse me, how do you buy a ticket?",
+          "section": false,
+        },
+        {
+          "en": "How does Tom come to school every day?",
+          "jp": "トムさんは毎日どうやって学校へ来ますか。",
+          "raw": "トムさんは毎日どうやって学校へ来ますか。How does Tom come to school every day?",
+          "section": false,
+        },
+        {
+          "en": "How would Mr. Tanaka teach this sentence pattern?",
+          "jp": "この文型、田中先生ならどうやって教えますか。",
+          "raw": "この文型、田中先生ならどうやって教えますか。How would Mr. Tanaka teach this sentence pattern?",
+          "section": false,
+        },
+        {
+          "en": "How did you get home yesterday when you were so drunk?",
+          "jp": "昨日はとても酔っ払っていましたが、どうやって帰ったんですが？",
+          "raw": "昨日はとても酔っ払っていましたが、どうやって帰ったんですが？How did you get home yesterday when you were so drunk?",
+          "section": false,
+        },
+        {
+          "en": "How can I withdraw money?",
+          "jp": "どうやってお金をおろしたらいいですか。",
+          "raw": "どうやってお金をおろしたらいいですか。How can I withdraw money?",
+          "section": false,
+        },
+        {
+          "en": "Teacher, how can I memorize kanji?",
+          "jp": "先生、どうやって漢字を覚えたらいいですか。",
+          "raw": "先生、どうやって漢字を覚えたらいいですか。Teacher, how can I memorize kanji?",
+          "section": false,
+        },
+        {
+          "en": "How did you study Japanese?",
+          "jp": "どうやって日本語を勉強しましたか。",
+          "raw": "どうやって日本語を勉強しましたか。How did you study Japanese?  ",
+          "section": false,
+        },
+      ],
+      "section": null,
+    },
+  ],
+  "link": "https://nihongokyoshi-net.com/2020/02/28/jlptn5-grammar-douyatte/",
+}
+`;
+
+exports[`parse jlptn5-grammar-gahoshii 1`] = `
+{
+  "definitions": {
+    "[備考]": [
+      "第三人称（彼、彼女など）の願望・希望は、表せない。",
+      "目上の人に「〜欲しいですか」は使えない（使うと失礼）。",
+    ],
+    "conjugation": [
+      "N + が欲しい",
+    ],
+    "jlpt": [
+      "N5",
+    ],
+    "meaning_en": [
+      ""want"",
+      "Expresses the speaker's desires or hopes.",
+    ],
+    "meaning_jp": [
+      "話し手の願望や希望などを表す文型。",
+    ],
+    "name": "〜が欲しい",
+  },
+  "examples": [
+    {
+      "entries": [
+        {
+          "en": "I want more money.",
+          "jp": "もっとお金が欲しいです。",
+          "raw": "もっとお金が欲しいです。I want more money.",
+          "section": false,
+        },
+        {
+          "en": "I want a girlfriend.Mac Book Proが欲しいです。I want a Mac Book Pro.",
+          "jp": "彼女が欲しいです。",
+          "raw": "彼女が欲しいです。I want a girlfriend.Mac Book Proが欲しいです。I want a Mac Book Pro.",
+          "section": false,
+        },
+        {
+          "en": "I want more time off.",
+          "jp": "もっと休みが欲しいです。",
+          "raw": "もっと休みが欲しいです。I want more time off.",
+          "section": false,
+        },
+        {
+          "en": "Teacher, I want five more minutes.",
+          "jp": "先生、あと５分欲しいです。",
+          "raw": "先生、あと５分欲しいです。Teacher, I want five more minutes.",
+          "section": false,
+        },
+        {
+          "en": "Oh, I want an “Anywhere door”.誕生日に何が欲しいですか。What do you want for your birthday?",
+          "jp": "あ〜、どこでもドアが欲しい。",
+          "raw": "あ〜、どこでもドアが欲しい。Oh, I want an “Anywhere door”.誕生日に何が欲しいですか。What do you want for your birthday?",
+          "section": false,
+        },
+        {
+          "en": "What do you want now?",
+          "jp": "今、何が欲しいですか。",
+          "raw": "今、何が欲しいですか。What do you want now?",
+          "section": false,
+        },
+        {
+          "en": "Which one do you want, James?",
+          "jp": "ジェームスさんはどれが欲しいですか。",
+          "raw": "ジェームスさんはどれが欲しいですか。Which one do you want, James?",
+          "section": false,
+        },
+        {
+          "en": "What kind of car do you want, Tom?",
+          "jp": "トムさんはどんな車が欲しいですか。",
+          "raw": "トムさんはどんな車が欲しいですか。What kind of car do you want, Tom?",
+          "section": false,
+        },
+        {
+          "en": "Which do you want more, time or money?",
+          "jp": "時間とお金とどちらが欲しいですか。",
+          "raw": "時間とお金とどちらが欲しいですか。Which do you want more, time or money?  ",
+          "section": false,
+        },
+      ],
+      "section": null,
+    },
+  ],
+  "link": "https://nihongokyoshi-net.com/2020/02/12/jlptn5-grammar-gahoshii/",
+}
+`;
+
+exports[`parse jlptn5-grammar-gaichiban 1`] = `
+{
+  "definitions": {
+    "[備考]": [
+      "比較するものが２つだけの時は「AはBより〜です」の文型を使う。",
+    ],
+    "conjugation": [
+      "N + がいちばん",
+    ],
+    "jlpt": [
+      "N5",
+    ],
+    "meaning_en": [
+      ""the best"",
+      "Indicates the highest degree of all (three or more) that are compared.",
+    ],
+    "meaning_jp": [
+      "比較する全てのもの（３つ以上）の中で、最も程度が高いことを表す。",
+    ],
+    "name": "〜がいちばん",
+  },
+  "examples": [
+    {
+      "entries": [
+        {
+          "en": "I like sukiyaki best among Japanese dishes.",
+          "jp": "日本料理で、すき焼きが一番好きです。",
+          "raw": "日本料理で、すき焼きが一番好きです。I like sukiyaki best among Japanese dishes.",
+          "section": false,
+        },
+        {
+          "en": "I like comedies the best among movies.",
+          "jp": "映画の中でコメディが一番好きです。",
+          "raw": "映画の中でコメディが一番好きです。I like comedies the best among movies.",
+          "section": false,
+        },
+        {
+          "en": "Tom is the tallest person in this school.",
+          "jp": "この学校で、トムさんが一番背が高いです。",
+          "raw": "この学校で、トムさんが一番背が高いです。Tom is the tallest person in this school.",
+          "section": false,
+        },
+        {
+          "en": "Jessica is the smartest person in this class.",
+          "jp": "この教室で、ジェシカさんが一番頭がいいです。",
+          "raw": "この教室で、ジェシカさんが一番頭がいいです。Jessica is the smartest person in this class.",
+          "section": false,
+        },
+        {
+          "en": "I like rock music the best.",
+          "jp": "音楽で、ロックが一番好きです。",
+          "raw": "音楽で、ロックが一番好きです。I like rock music the best.",
+          "section": false,
+        },
+        {
+          "en": "Summer is the hottest time of the year.",
+          "jp": "一年で、夏が一番暑いです。",
+          "raw": "一年で、夏が一番暑いです。Summer is the hottest time of the year.",
+          "section": false,
+        },
+        {
+          "en": "Which of your siblings is the tallest?",
+          "jp": "兄弟で誰が一番背が高いですか。",
+          "raw": "兄弟で誰が一番背が高いですか。Which of your siblings is the tallest?",
+          "section": false,
+        },
+        {
+          "en": "What is the most beautiful place in your country, John?",
+          "jp": "ジョンさんの国でどこが一番きれいですか。",
+          "raw": "ジョンさんの国でどこが一番きれいですか。What is the most beautiful place in your country, John?",
+          "section": false,
+        },
+        {
+          "en": "When is it the coldest in your country, James?",
+          "jp": "ジェームスさんの国でいつが一番寒いですか。",
+          "raw": "ジェームスさんの国でいつが一番寒いですか。When is it the coldest in your country, James?  ",
+          "section": false,
+        },
+      ],
+      "section": null,
+    },
+  ],
+  "link": "https://nihongokyoshi-net.com/2020/02/26/jlptn5-grammar-gaichiban/",
+}
+`;
+
+exports[`parse jlptn5-grammar-kara 1`] = `
+{
+  "definitions": {
+    "conjugation": [
+      "文１ + から + 文２",
+    ],
+    "jlpt": [
+      "N4",
+    ],
+    "meaning_en": [
+      ""because"",
+      "Used to say the reason or cause.",
+    ],
+    "meaning_jp": [
+      "理由・原因を言う時に使う。",
+    ],
+    "name": "〜から",
+  },
+  "examples": [
+    {
+      "entries": [
+        {
+          "en": "Today is my son's birthday, so I will go home early.",
+          "jp": "今日は息子の誕生日ですから、早く帰ります。",
+          "raw": "今日は息子の誕生日ですから、早く帰ります。Today is my son's birthday, so I will go home early.",
+          "section": false,
+        },
+        {
+          "en": "I want to work in a Japanese company, so I am studying Japanese.",
+          "jp": "日本の会社で働きたいですから、日本語を勉強しています。",
+          "raw": "日本の会社で働きたいですから、日本語を勉強しています。I want to work in a Japanese company, so I am studying Japanese.",
+          "section": false,
+        },
+        {
+          "en": "I have a test tomorrow, so I can't play.",
+          "jp": "明日はテストがあるから、遊べません。",
+          "raw": "明日はテストがあるから、遊べません。I have a test tomorrow, so I can't play.",
+          "section": false,
+        },
+        {
+          "en": "I drank some coffee, so I'm not sleepy at all.",
+          "jp": "コーヒーを飲んだから、今は全然眠くないです。",
+          "raw": "コーヒーを飲んだから、今は全然眠くないです。I drank some coffee, so I'm not sleepy at all.",
+          "section": false,
+        },
+        {
+          "en": "I bought a present for my girlfriend yesterday, so I don't have any more money.",
+          "jp": "昨日、彼女のプレゼントを買ったから、もうお金がありません。",
+          "raw": "昨日、彼女のプレゼントを買ったから、もうお金がありません。I bought a present for my girlfriend yesterday, so I don't have any more money.",
+          "section": false,
+        },
+        {
+          "en": "I don't understand this question because it's difficult.",
+          "jp": "この問題は難しいですから、私にはわかりません。",
+          "raw": "この問題は難しいですから、私にはわかりません。I don't understand this question because it's difficult.",
+          "section": false,
+        },
+        {
+          "en": "I don't have any milk, so I'm going to the convenience store to buy some.",
+          "jp": "牛乳がありませんから、コンビニへ買いに行きます。",
+          "raw": "牛乳がありませんから、コンビニへ買いに行きます。I don't have any milk, so I'm going to the convenience store to buy some.",
+          "section": false,
+        },
+        {
+          "en": "I don't like vegetables, so I don't want to eat them.",
+          "jp": "野菜が嫌いですから、食べたくないです。",
+          "raw": "野菜が嫌いですから、食べたくないです。I don't like vegetables, so I don't want to eat them.",
+          "section": false,
+        },
+        {
+          "en": "I like movies, so I often watch them on my computer.",
+          "jp": "映画が好きですから、よくパソコンで見ています。",
+          "raw": "映画が好きですから、よくパソコンで見ています。I like movies, so I often watch them on my computer.",
+          "section": false,
+        },
+        {
+          "en": "This book is interesting, so please read it.",
+          "jp": "この本、面白いから、ぜひ読んでみて。",
+          "raw": "この本、面白いから、ぜひ読んでみて。This book is interesting, so please read it.",
+          "section": false,
+        },
+        {
+          "en": "A: Why didn't you come yesterday? 
+B: Sorry, I couldn’t come,  because I was busy.  類似文型【JLPT N4】文法・例文: 〜ので2020.1.1文型: 〜ので 理由・原因を言う時に使う。 because Used to say the reason or cause. "ので" sounds more formal than "から" 普通形 + ので N4 「から」よりも少しフォーマルな文型。 命令文や禁止文などでは「ので」よりも「から」を...この文型が登場する教科",
+          "jp": "A: どうして昨日、来なかったの？ 
+B: ごめん、忙しかったから。",
+          "raw": "A：どうして昨日、来なかったの？ B：ごめん、忙しかったから。A: Why didn't you come yesterday? B: Sorry, I couldn’t come,  because I was busy.  類似文型【JLPT N4】文法・例文：〜ので2020.1.1文型：〜ので 理由・原因を言う時に使う。 because Used to say the reason or cause. "ので" sounds more formal than "から" 普通形 + ので N4 「から」よりも少しフォーマルな文型。 命令文や禁止文などでは「ので」よりも「から」を...この文型が登場する教科",
+          "section": false,
+        },
+      ],
+      "section": null,
+    },
+  ],
+  "link": "https://nihongokyoshi-net.com/2020/06/10/jlptn5-grammar-kara/",
+}
+`;
+
+exports[`parse jlptn5-grammar-kata 1`] = `
+{
+  "definitions": {
+    "conjugation": [
+      "V(ます形)",
+      "ます",
+      "+ 方",
+    ],
+    "jlpt": [
+      "N5",
+    ],
+    "meaning_en": [
+      "The way of doing something / how to do",
+    ],
+    "meaning_jp": [
+      "〜をする",
+      "方法",
+    ],
+    "name": "〜方（かた）",
+  },
+  "examples": [
+    {
+      "entries": [
+        {
+          "en": "Could you please teach me how to swim?ATMの使い方を教えていただけませんか。Can you teach me how to use an ATM?",
+          "jp": "泳ぎ方を教えていただけませんか。",
+          "raw": "泳ぎ方を教えていただけませんか。Could you please teach me how to swim?ATMの使い方を教えていただけませんか。Can you teach me how to use an ATM?",
+          "section": false,
+        },
+        {
+          "en": "Please tell me how to read this kanji.",
+          "jp": "この漢字の読み方を教えてください。",
+          "raw": "この漢字の読み方を教えてください。Please tell me how to read this kanji.",
+          "section": false,
+        },
+        {
+          "en": "My mother taught me how to make delicious curry.",
+          "jp": "おいしい料理の作り方を母に習いました。",
+          "raw": "おいしい料理の作り方を母に習いました。My mother taught me how to make delicious curry.",
+          "section": false,
+        },
+        {
+          "en": "That teacher's way of teaching is very easy to understand.",
+          "jp": "あの先生の教え方はとてもわかりやすいです。",
+          "raw": "あの先生の教え方はとてもわかりやすいです。That teacher's way of teaching is very easy to understand.",
+          "section": false,
+        },
+        {
+          "en": "You are good at using chopsticks, aren't you?AAAデパートへの行き方を教えていただけませんか。Can you tell me how to get to the AAA department store?",
+          "jp": "箸の使い方が上手ですね。",
+          "raw": "箸の使い方が上手ですね。You are good at using chopsticks, aren't you?AAAデパートへの行き方を教えていただけませんか。Can you tell me how to get to the AAA department store?",
+          "section": false,
+        },
+        {
+          "en": "Angela’s running style is very cute.",
+          "jp": "アンジェラさんの走り方はとてもかわいいです。",
+          "raw": "アンジェラさんの走り方はとてもかわいいです。Angela’s running style is very cute.",
+          "section": false,
+        },
+        {
+          "en": "I don't know how to buy a train ticket.",
+          "jp": "切符の買い方がわかりません。",
+          "raw": "切符の買い方がわかりません。I don't know how to buy a train ticket.",
+          "section": false,
+        },
+        {
+          "en": "I want to know how to cook nikujaga.  この文型が登場する教科",
+          "jp": "肉じゃがの作り方が知りたいです。",
+          "raw": "肉じゃがの作り方が知りたいです。I want to know how to cook nikujaga.  この文型が登場する教科",
+          "section": false,
+        },
+      ],
+      "section": null,
+    },
+  ],
+  "link": "https://nihongokyoshi-net.com/2018/04/12/jlptn5-grammar-kata/",
+}
+`;
+
+exports[`parse jlptn5-grammar-maeni 1`] = `
+{
+  "definitions": {
+    "[備考]": [
+      "昨日、今日、去年、今年、先月などの数字を伴わない時間表現には使えない。",
+    ],
+    "conjugation": [
+      "V",
+      "（辞書形）",
+      "+ 前に",
+      "N + の前に",
+      "N（期間） + 前に",
+    ],
+    "jlpt": [
+      "N5",
+    ],
+    "meaning_en": [
+      ""before"",
+      "An expression used to indicate which of two actions should be done first.",
+    ],
+    "meaning_jp": [
+      "２つの行為のうち、どちらを先に行うかを表す時に使う表現。",
+    ],
+    "name": "〜前に",
+  },
+  "examples": [
+    {
+      "entries": [
+        {
+          "en": undefined,
+          "jp": "例",
+          "raw": "例",
+          "section": false,
+        },
+      ],
+      "section": null,
+    },
+  ],
+  "link": "https://nihongokyoshi-net.com/2019/04/15/jlptn5-grammar-maeni/",
+}
+`;
+
+exports[`parse jlptn5-grammar-masenka 1`] = `
+{
+  "definitions": {
+    "[備考]": [
+      "「一緒に」とセットで使うことが多い。",
+    ],
+    "conjugation": [
+      "V(ます形)ま",
+      "す",
+      "+ せんか",
+    ],
+    "jlpt": [
+      "N5",
+    ],
+    "meaning_en": [
+      ""Would you like to 〜 ? / Do you want to 〜 ?"",
+      "Used to invite someone to do something.",
+    ],
+    "meaning_jp": [
+      "相手を誘う表現",
+    ],
+    "name": "〜ませんか",
+  },
+  "examples": [
+    {
+      "entries": [
+        {
+          "en": "Would you like to watch a movie together this weekend?",
+          "jp": "週末、一緒に映画を見ませんか。",
+          "raw": "週末、一緒に映画を見ませんか。Would you like to watch a movie together this weekend?",
+          "section": false,
+        },
+        {
+          "en": "Would you like to have dinner with me tonight?",
+          "jp": "今晩、一緒に食事しませんか。",
+          "raw": "今晩、一緒に食事しませんか。Would you like to have dinner with me tonight?",
+          "section": false,
+        },
+        {
+          "en": "Would you like to go home together?",
+          "jp": "一緒に帰りませんか。",
+          "raw": "一緒に帰りませんか。Would you like to go home together?",
+          "section": false,
+        },
+        {
+          "en": "Would you like to study at the library with me?",
+          "jp": "一緒に図書館で勉強しませんか。",
+          "raw": "一緒に図書館で勉強しませんか。Would you like to study at the library with me?",
+          "section": false,
+        },
+        {
+          "en": "Would you like to go to a cafe with me now?",
+          "jp": "これから、一緒にカフェに行きませんか。",
+          "raw": "これから、一緒にカフェに行きませんか。Would you like to go to a cafe with me now?",
+          "section": false,
+        },
+        {
+          "en": "Why don't we all go to the beach together during the summer vacation?",
+          "jp": "夏休み、みんなで海に行きませんか。",
+          "raw": "夏休み、みんなで海に行きませんか。Why don't we all go to the beach together during the summer vacation?",
+          "section": false,
+        },
+        {
+          "en": "I got a ticket to a concert, would you like to see it with me?",
+          "jp": "コンサートのチケットをもらったんですが、一緒に見ませんか。",
+          "raw": "コンサートのチケットをもらったんですが、一緒に見ませんか。I got a ticket to a concert, would you like to see it with me?",
+          "section": false,
+        },
+        {
+          "en": "Why don't we go to the fireworks festival together?",
+          "jp": "一緒に花火大会に行きませんか。",
+          "raw": "一緒に花火大会に行きませんか。Why don't we go to the fireworks festival together?",
+          "section": false,
+        },
+        {
+          "en": "Why don't you join us for a social event this Sunday?",
+          "jp": "今度の日曜日、交流会に参加しませんか。",
+          "raw": "今度の日曜日、交流会に参加しませんか。Why don't you join us for a social event this Sunday?",
+          "section": false,
+        },
+        {
+          "en": "Would you like to dance with me?",
+          "jp": "一緒に踊りませんか。",
+          "raw": "一緒に踊りませんか。Would you like to dance with me?",
+          "section": false,
+        },
+        {
+          "en": "A: Have you eaten lunch yet? 
+B: No, not yet. 
+A: Then why don't you eat with me? 
+B: That sounds good. Let's eat.  文型イラスト〜ませんか2021.7.11日本語の初級文型「〜ませんか」の導入や練習に役立つ絵カードです。...この文型が登場する教科",
+          "jp": "A: もうお昼ご飯を食べましたか。 
+B: いいえ、まだです。 
+A: じゃあ、一緒に食べませんか。 
+B: いいですね。食べましょう。",
+          "raw": "A：もうお昼ご飯を食べましたか。 B：いいえ、まだです。 A：じゃあ、一緒に食べませんか。 B：いいですね。食べましょう。A: Have you eaten lunch yet? B: No, not yet. A: Then why don't you eat with me? B: That sounds good. Let's eat.  文型イラスト〜ませんか2021.7.11日本語の初級文型「〜ませんか」の導入や練習に役立つ絵カードです。...この文型が登場する教科",
+          "section": false,
+        },
+      ],
+      "section": null,
+    },
+  ],
+  "link": "https://nihongokyoshi-net.com/2019/12/14/jlptn5-grammar-masenka/",
+}
+`;
+
+exports[`parse jlptn5-grammar-masho 1`] = `
+{
+  "definitions": {
+    "meaning_jp": [],
+    "name": "〜ましょう",
+    "undefined": [],
+  },
+  "examples": [
+    {
+      "entries": [
+        {
+          "en": undefined,
+          "jp": "例",
+          "raw": "例",
+          "section": false,
+        },
+      ],
+      "section": null,
+    },
+  ],
+  "link": "https://nihongokyoshi-net.com/2017/12/05/jlptn5-grammar-masho/",
+}
+`;
+
+exports[`parse jlptn5-grammar-mashouka 1`] = `
+{
+  "definitions": {
+    "conjugation": [
+      "V(ます形)ま",
+      "す",
+      "+ しょうか",
+    ],
+    "jlpt": [
+      "N5",
+    ],
+    "meaning_en": [
+      ""Shall I ~ ?"",
+      "Used to offer to help for the listener.",
+    ],
+    "meaning_jp": [
+      "手伝いを申し出る表現。",
+    ],
+    "name": "〜ましょうか",
+  },
+  "examples": [
+    {
+      "entries": [
+        {
+          "en": "Shall I carry your luggage?",
+          "jp": "荷物を持ちましょうか。",
+          "raw": "荷物を持ちましょうか。Shall I carry your luggage?",
+          "section": false,
+        },
+        {
+          "en": "Shall I lend you an umbrella?",
+          "jp": "傘を貸しましょうか。",
+          "raw": "傘を貸しましょうか。Shall I lend you an umbrella?",
+          "section": false,
+        },
+        {
+          "en": "Shall I call a cab?",
+          "jp": "タクシーを呼びましょうか。",
+          "raw": "タクシーを呼びましょうか。Shall I call a cab?",
+          "section": false,
+        },
+        {
+          "en": "Shall I turn off the air conditioner?",
+          "jp": "エアコンを消しましょうか。",
+          "raw": "エアコンを消しましょうか。Shall I turn off the air conditioner?",
+          "section": false,
+        },
+        {
+          "en": "Shall I turn on the air conditioner?",
+          "jp": "エアコンをつけましょうか。",
+          "raw": "エアコンをつけましょうか。Shall I turn on the air conditioner?",
+          "section": false,
+        },
+        {
+          "en": "Shall I take a picture?",
+          "jp": "写真を撮りましょうか。",
+          "raw": "写真を撮りましょうか。Shall I take a picture?",
+          "section": false,
+        },
+        {
+          "en": "Shall I pass you the salt?",
+          "jp": "塩を取りましょうか。",
+          "raw": "塩を取りましょうか。Shall I pass you the salt?",
+          "section": false,
+        },
+        {
+          "en": "Shall I open the door?",
+          "jp": "ドアを開けましょうか。",
+          "raw": "ドアを開けましょうか。Shall I open the door?",
+          "section": false,
+        },
+        {
+          "en": "Shall I make a copy?",
+          "jp": "コピーしましょうか。",
+          "raw": "コピーしましょうか。Shall I make a copy?",
+          "section": false,
+        },
+        {
+          "en": "Shall I pick you up at the station?",
+          "jp": "駅まで迎えに行きましょうか。",
+          "raw": "駅まで迎えに行きましょうか。Shall I pick you up at the station?",
+          "section": false,
+        },
+        {
+          "en": "Shall I help you?",
+          "jp": "手伝いましょうか。",
+          "raw": "手伝いましょうか。Shall I help you?",
+          "section": false,
+        },
+        {
+          "en": "Shall I teach you?  文型イラストVましょうか2019.8.7日本語の初級文型「Vましょうか」の導入や練習に役立つ絵カードを作成しました。 １０枚セットで１２０円で販売します。 購入は「note」というウェブサービスからできます。 fa-arrow-circle-rightnoteで絵カードを購入する 購入される方は、必ずページ下にある「利用規約と注意事項」を...この文型が登場する教科",
+          "jp": "私が教えましょうか。",
+          "raw": "私が教えましょうか。Shall I teach you?  文型イラストVましょうか2019.8.7日本語の初級文型「Vましょうか」の導入や練習に役立つ絵カードを作成しました。 １０枚セットで１２０円で販売します。 購入は「note」というウェブサービスからできます。 fa-arrow-circle-rightnoteで絵カードを購入する 購入される方は、必ずページ下にある「利用規約と注意事項」を...この文型が登場する教科",
+          "section": false,
+        },
+      ],
+      "section": null,
+    },
+  ],
+  "link": "https://nihongokyoshi-net.com/2019/08/07/jlptn5-grammar-mashouka/",
+}
+`;
+
+exports[`parse jlptn5-grammar-mou 1`] = `
+{
+  "definitions": {
+    "[備考]": [
+      "「もう〜ましたか？」の質問にまだ完了していないことを述べる場合は「いいえ、まだです」や「いいえ、まだ〜",
+      "ていません",
+      "」の形で答える。",
+    ],
+    "conjugation": [
+      "V（肯定形 + 過去形）",
+    ],
+    "jlpt": [
+      "N5",
+    ],
+    "meaning_en": [
+      ""already done"",
+      "Indicates the completion of an action or event.",
+    ],
+    "meaning_jp": [
+      "動作や出来事の完了を表す。",
+    ],
+    "name": "もう〜した",
+  },
+  "examples": [
+    {
+      "entries": [
+        {
+          "en": "A: Have you eaten lunch yet? 
+B:: Yes, I have.",
+          "jp": "A: もう昼ごはんを食べましたか。 
+B: はい、食べました。",
+          "raw": "A：もう昼ごはんを食べましたか。 B：はい、食べました。A：Have you eaten lunch yet? B:：Yes, I have.",
+          "section": false,
+        },
+        {
+          "en": "A: Have you done your homework yet? 
+B: No, not yet.",
+          "jp": "A: もう宿題をしましたか。 
+B: いいえ、まだです。",
+          "raw": "A：もう宿題をしましたか。 B：いいえ、まだです。A：Have you done your homework yet? B：No, not yet.",
+          "section": false,
+        },
+        {
+          "en": "A: Have you all been to Kyoto yet? 
+B:  Yes, I have.",
+          "jp": "A: みなさん、もう京都には行きましたか？ 
+B: はい、行きました。",
+          "raw": "A：みなさん、もう京都には行きましたか？ B：はい、行きました。A：Have you all been to Kyoto yet? B： Yes, I have.",
+          "section": false,
+        },
+        {
+          "en": "A:  Have you submitted  your report yet? 
+B: Yes, I just submitted it a while ago.",
+          "jp": "A: もうレポートを出しましたか。 
+B: はい、さっき出しました。",
+          "raw": "A：もうレポートを出しましたか。 B：はい、さっき出しました。A： Have you submitted  your report yet? B：Yes, I just submitted it a while ago.",
+          "section": false,
+        },
+        {
+          "en": "A: Has the movie started yet? 
+B: No, not yet.",
+          "jp": "A: もう映画始まった？ 
+B: ううん、まだだよ。",
+          "raw": "A：もう映画始まった？ B：ううん、まだだよ。A：Has the movie started yet? B：No, not yet.",
+          "section": false,
+        },
+        {
+          "en": "Have you been to Disneyland yet?",
+          "jp": "もうディズニーランドへは行きましたか。",
+          "raw": "もうディズニーランドへは行きましたか。Have you been to Disneyland yet?",
+          "section": false,
+        },
+        {
+          "en": "What? Tom, did you finish your test already?",
+          "jp": "え、トムさんもうテスト終わったの？",
+          "raw": "え、トムさんもうテスト終わったの？What? Tom, did you finish your test already?",
+          "section": false,
+        },
+        {
+          "en": "Have you finished preparing for your trip yet?",
+          "jp": "旅行の準備はもう終わった？",
+          "raw": "旅行の準備はもう終わった？Have you finished preparing for your trip yet?  ",
+          "section": false,
+        },
+      ],
+      "section": null,
+    },
+  ],
+  "link": "https://nihongokyoshi-net.com/2020/02/21/jlptn5-grammar-mou-mashita/",
+}
+`;
+
+exports[`parse jlptn5-grammar-nagara 1`] = `
+{
+  "definitions": {
+    "conjugation": [
+      "V",
+      "マス",
+      "+ ながら",
+      "Vには原則、瞬間動詞が使えない。",
+    ],
+    "jlpt": [
+      "N5",
+    ],
+    "meaning_en": [
+      "To do two things simultaneously / to do B while doing A",
+    ],
+    "meaning_jp": [
+      "じ人が、AとBの２つのことを",
+      "にする。",
+    ],
+    "name": "AながらB",
+  },
+  "examples": [
+    {
+      "entries": [
+        {
+          "en": "I watch TV while studying Japanese.",
+          "jp": "日本語の勉強をしながらテレビを見ます。",
+          "raw": "日本語の勉強をしながらテレビを見ます。I watch TV while studying Japanese.",
+          "section": false,
+        },
+        {
+          "en": "You must not talk on the phone while driving.",
+          "jp": "電話しながら車を運転してはいけません。",
+          "raw": "電話しながら車を運転してはいけません。You must not talk on the phone while driving.",
+          "section": false,
+        },
+        {
+          "en": "I eat breakfast while reading the newspaper.",
+          "jp": "新聞を読みながら朝ごはんを食べます。",
+          "raw": "新聞を読みながら朝ごはんを食べます。I eat breakfast while reading the newspaper.",
+          "section": false,
+        },
+        {
+          "en": "I eat breakfast while watching TV.",
+          "jp": "テレビを見ながら朝ごはんを食べます。",
+          "raw": "テレビを見ながら朝ごはんを食べます。I eat breakfast while watching TV.",
+          "section": false,
+        },
+        {
+          "en": "I clean while singing.",
+          "jp": "歌いながら掃除します。",
+          "raw": "歌いながら掃除します。I clean while singing.",
+          "section": false,
+        },
+        {
+          "en": "I take a walk while listening to music.",
+          "jp": "音楽を聞きながら散歩します。",
+          "raw": "音楽を聞きながら散歩します。I take a walk while listening to music.",
+          "section": false,
+        },
+        {
+          "en": "Can you sing while playing the guitar?",
+          "jp": "ギターを弾きながら歌えますか。",
+          "raw": "ギターを弾きながら歌えますか。Can you sing while playing the guitar?",
+          "section": false,
+        },
+        {
+          "en": "I use my phone while using the toilet.",
+          "jp": "携帯をしながらトイレをします。",
+          "raw": "携帯をしながらトイレをします。I use my phone while using the toilet.",
+          "section": false,
+        },
+        {
+          "en": "I talk with friends while drinking alcohol.",
+          "jp": "友達とお酒を飲みながら話します。",
+          "raw": "友達とお酒を飲みながら話します。I talk with friends while drinking alcohol.",
+          "section": false,
+        },
+        {
+          "en": "I watch movies while eating popcorn.",
+          "jp": "ポップコーンを食べながら映画を見ます。",
+          "raw": "ポップコーンを食べながら映画を見ます。I watch movies while eating popcorn.",
+          "section": false,
+        },
+        {
+          "en": "I cook while reading a book.",
+          "jp": "本を見ながら料理します。",
+          "raw": "本を見ながら料理します。I cook while reading a book.",
+          "section": false,
+        },
+        {
+          "en": "I take notes while listening to the conversation.",
+          "jp": "話を聞きながらメモします。",
+          "raw": "話を聞きながらメモします。I take notes while listening to the conversation.",
+          "section": false,
+        },
+        {
+          "en": "I'm studying at university while working part-time.",
+          "jp": "アルバイトをしながら大学で勉強しています。",
+          "raw": "アルバイトをしながら大学で勉強しています。I'm studying at university while working part-time.",
+          "section": false,
+        },
+        {
+          "en": "Please ask questions while looking at the picture.",
+          "jp": "絵を見ながら質問を聞いてください。",
+          "raw": "絵を見ながら質問を聞いてください。Please ask questions while looking at the picture.",
+          "section": false,
+        },
+        {
+          "en": "How about having a chat over coffee at Starbucks?",
+          "jp": "ちょっとスタバでコーヒーでも飲みながら、話しませんか。",
+          "raw": "ちょっとスタバでコーヒーでも飲みながら、話しませんか。How about having a chat over coffee at Starbucks?",
+          "section": false,
+        },
+        {
+          "en": "You shouldn't drive while looking away.  <br />",
+          "jp": "よそ見しながら、運転してはいけません。",
+          "raw": "よそ見しながら、運転してはいけません。You shouldn't drive while looking away.  <br />",
+          "section": false,
+        },
+        {
+          "en": undefined,
+          "jp": "<br />誤用例「AながらB」の文型では、Bが主な動作を表し、AはどのようにBをするのかを表す追加情報になります。そのため、次の文は違和感のある文になってしまいます。また、原則、瞬間動詞が使えないので、次のような文も誤用となる。類似文型【JLPT N2】文法・例文: 〜つつ2019.4.23文型１: 〜つつ（逆接） けれども even though V（ます形）ます + つつ N2 「〜つつも」という言い方もある。 例文１ ・健康に良くないとは知りつつ、タバコがやめられない。 ・早く次の教案を作らなければと思いつつ、ドラマが面白くて作れない。 ・良くないこととは思いつつ、インターネットで...【JLPT N１】文法・例文: かたわら2019.2.15日本語能力試験１級（JLPT N1）の文型「かたわら」に関する解説です。...文型イラストげんき２　第１８課  GENK
+I: An Integrated Course in Elementary Japanese II [Third Edition] 初級日本語げんき[第3版] IIJapan Times Amazon 楽天市場 Yahooショッピン",
+          "raw": "     <br />誤用例「AながらB」の文型では、Bが主な動作を表し、AはどのようにBをするのかを表す追加情報になります。そのため、次の文は違和感のある文になってしまいます。また、原則、瞬間動詞が使えないので、次のような文も誤用となる。類似文型【JLPT N2】文法・例文：〜つつ2019.4.23文型１：〜つつ（逆接） けれども even though V（ます形）ます + つつ N2 「〜つつも」という言い方もある。 例文１ ・健康に良くないとは知りつつ、タバコがやめられない。 ・早く次の教案を作らなければと思いつつ、ドラマが面白くて作れない。 ・良くないこととは思いつつ、インターネットで...【JLPT N１】文法・例文：かたわら2019.2.15日本語能力試験１級（JLPT N1）の文型「かたわら」に関する解説です。...文型イラストげんき２　第１８課  GENKI: An Integrated Course in Elementary Japanese II [Third Edition] 初級日本語げんき[第3版] IIJapan Times Amazon 楽天市場 Yahooショッピン",
+          "section": false,
+        },
+      ],
+      "section": null,
+    },
+  ],
+  "link": "https://nihongokyoshi-net.com/2018/04/11/jlptn5-grammar-nagara/",
+}
+`;
+
+exports[`parse jlptn5-grammar-naide 1`] = `
+{
+  "definitions": {
+    "conjugation": [
+      "V(ない形) + ないで",
+    ],
+    "jlpt": [
+      "N5",
+    ],
+    "meaning_en": [
+      "To do B without doing A",
+    ],
+    "meaning_jp": [
+      "Aをしない状態でBをする。",
+    ],
+    "name": "AないでB",
+    "のむ →　のまないで": [
+      "たべる → たべないで",
+      "みる → みないで",
+    ],
+  },
+  "examples": [
+    {
+      "entries": [
+        {
+          "en": "This morning, I came to school without eating breakfast.",
+          "jp": "今朝、朝ごはんを食べないで学校に来ました。",
+          "raw": "今朝、朝ごはんを食べないで学校に来ました。This morning, I came to school without eating breakfast.",
+          "section": false,
+        },
+        {
+          "en": "I sleep without turning off the lights every day.",
+          "jp": "私は毎日、電気を消さないで寝ます。",
+          "raw": "私は毎日、電気を消さないで寝ます。I sleep without turning off the lights every day.",
+          "section": false,
+        },
+        {
+          "en": "I sleep without turning on the air conditioner because it is cooler these days.",
+          "jp": "最近、涼しいので、エアコンをつけないで寝ます。",
+          "raw": "最近、涼しいので、エアコンをつけないで寝ます。I sleep without turning on the air conditioner because it is cooler these days.",
+          "section": false,
+        },
+        {
+          "en": "I will go out without an umbrella.",
+          "jp": "傘を持たないで出かけます。",
+          "raw": "傘を持たないで出かけます。I will go out without an umbrella.",
+          "section": false,
+        },
+        {
+          "en": "I drink coffee without sugar.",
+          "jp": "コーヒーに砂糖を入れないで飲みます。",
+          "raw": "コーヒーに砂糖を入れないで飲みます。I drink coffee without sugar.",
+          "section": false,
+        },
+        {
+          "en": "I went to school without doing my homework, and my teacher got angry with me.",
+          "jp": "宿題をしないで学校に行ったら怒られました。",
+          "raw": "宿題をしないで学校に行ったら怒られました。I went to school without doing my homework, and my teacher got angry with me.",
+          "section": false,
+        },
+        {
+          "en": "I fell asleep without taking a bath last night.",
+          "jp": "昨日、お風呂に入らないで寝てしまった。",
+          "raw": "昨日、お風呂に入らないで寝てしまった。I fell asleep without taking a bath last night.",
+          "section": false,
+        },
+        {
+          "en": "I sold the book that my friend gave me without reading it.",
+          "jp": "友達にもらった本を読まないで売ってしまった。",
+          "raw": "友達にもらった本を読まないで売ってしまった。I sold the book that my friend gave me without reading it.",
+          "section": false,
+        },
+        {
+          "en": "I have an exam tomorrow, so I'm going to study without sleeping tonight.",
+          "jp": "明日は試験なので、今晩は寝ないで勉強します。",
+          "raw": "明日は試験なので、今晩は寝ないで勉強します。I have an exam tomorrow, so I'm going to study without sleeping tonight.",
+          "section": false,
+        },
+        {
+          "en": "I had a fever, so I went to bed without taking a bath.",
+          "jp": "熱があったので、お風呂に入らないで寝ました。",
+          "raw": "熱があったので、お風呂に入らないで寝ました。I had a fever, so I went to bed without taking a bath.",
+          "section": false,
+        },
+        {
+          "en": "If you are not feeling well, please rest without straining yourself.",
+          "jp": "体調が悪いときは、無理しないで休んでください。",
+          "raw": "体調が悪いときは、無理しないで休んでください。If you are not feeling well, please rest without straining yourself.",
+          "section": false,
+        },
+        {
+          "en": "If you have any questions, please don't hesitate to ask.",
+          "jp": "わからないことがあったら、遠慮しないで聞いてください。",
+          "raw": "わからないことがあったら、遠慮しないで聞いてください。If you have any questions, please don't hesitate to ask.",
+          "section": false,
+        },
+        {
+          "en": "I came here without my wallet.",
+          "jp": "財布を持たないで来てしまった。",
+          "raw": "財布を持たないで来てしまった。I came here without my wallet.",
+          "section": false,
+        },
+        {
+          "en": "I did not use a dictionary and did the work by myself.",
+          "jp": "辞書を使わないで、一人でやりました。",
+          "raw": "辞書を使わないで、一人でやりました。I did not use a dictionary and did the work by myself.",
+          "section": false,
+        },
+        {
+          "en": "I overslept and was in a hurry, so I came to school without brushing my teeth.",
+          "jp": "朝寝坊して急いでいたので、歯磨きをしないで学校に来ちゃった。",
+          "raw": "朝寝坊して急いでいたので、歯磨きをしないで学校に来ちゃった。I overslept and was in a hurry, so I came to school without brushing my teeth.",
+          "section": false,
+        },
+        {
+          "en": "Where did you go without going to school today?",
+          "jp": "今日は学校に行かないで、どこに行っていたの？",
+          "raw": "今日は学校に行かないで、どこに行っていたの？Where did you go without going to school today?",
+          "section": false,
+        },
+        {
+          "en": undefined,
+          "jp": "類似文型関連記事【JLPT N３】文法・例文: 〜ずに2019.2.23文型: 〜ずに 〜しないで 「〜ないで」と同じ意味だが、「〜ずに」の方が少し硬い。 "without doing " It means the same as “～ないで,” but “～ずに” is a little more formal style. V(ない形)ない + ずに （例） 行かない...文型イラストげんき　初級日本語 ２０課  GENK
+I: An Integrated Course in Elementary Japanese  I  [Third Edition] 初級日本語げんき[第3版] Kindle Amazon 楽天市場 Yahooショッピングげんき２ 初級日本語　第２０課2017.11.16使用教材 げんき2　初級日本語 GENK
+I: An Integrated Course in Elementary Japanese II 初級日本語 げんき II posted with カエレバ 坂野 永理,池田 庸子,大野 裕,品川 恭子,渡嘉敷 恭子 ジャパンタイムズ 2011-09-30 ...",
+          "raw": "類似文型関連記事【JLPT N３】文法・例文：〜ずに2019.2.23文型：〜ずに 〜しないで 「〜ないで」と同じ意味だが、「〜ずに」の方が少し硬い。 "without doing " It means the same as “～ないで,” but “～ずに” is a little more formal style. V(ない形)ない + ずに （例） 行かない...文型イラストげんき　初級日本語 ２０課  GENKI: An Integrated Course in Elementary Japanese  I  [Third Edition] 初級日本語げんき[第3版] Kindle Amazon 楽天市場 Yahooショッピングげんき２ 初級日本語　第２０課2017.11.16使用教材 げんき2　初級日本語 GENKI: An Integrated Course in Elementary Japanese II 初級日本語 げんき II posted with カエレバ 坂野 永理,池田 庸子,大野 裕,品川 恭子,渡嘉敷 恭子 ジャパンタイムズ 2011-09-30 ...",
+          "section": false,
+        },
+        {
+          "en": undefined,
+          "jp": "まるごと 日本のことばと文化 初級2 A2 りかい 第３課  Marugot
+o: Japanese language and culture Elementary2 A2 Coursebook for communicative language competences "Rikai" / まるごと 日本のことばと文化 初級2 A2 りかい(JF Standard coursebook / JF日本語教育スタンダード準拠コースブック) Amazon 楽天市場 Yahooショッピン",
+          "raw": "まるごと 日本のことばと文化 初級2 A2 りかい 第３課  Marugoto: Japanese language and culture Elementary2 A2 Coursebook for communicative language competences "Rikai" / まるごと 日本のことばと文化 初級2 A2 りかい(JF Standard coursebook / JF日本語教育スタンダード準拠コースブック) Amazon 楽天市場 Yahooショッピン",
+          "section": false,
+        },
+      ],
+      "section": null,
+    },
+  ],
+  "link": "https://nihongokyoshi-net.com/2018/04/20/jlptn5-grammar-naide/",
+}
+`;
+
+exports[`parse jlptn5-grammar-naidekudasai 1`] = `
+{
+  "definitions": {
+    "conjugation": [
+      "V(ない形) + ないでください",
+    ],
+    "jlpt": [
+      "N5",
+    ],
+    "meaning_en": [
+      ""please don't do / giving warning not to do"",
+      "Used to ask someone not to do something.",
+    ],
+    "meaning_jp": [
+      "何かをしないように指示する表現。",
+    ],
+    "name": "〜ないでください",
+    "のむ →　のまないでください": [
+      "たべる → たべないでください",
+      "みる → みないでください",
+    ],
+  },
+  "examples": [
+    {
+      "entries": [
+        {
+          "en": "Please don't touch that picture.",
+          "jp": "そちらの絵に触らないでください。",
+          "raw": "そちらの絵に触らないでください。Please don't touch that picture.",
+          "section": false,
+        },
+        {
+          "en": "It's for sale, so don't sit on it.",
+          "jp": "それは売り物ですから、座らないでください。",
+          "raw": "それは売り物ですから、座らないでください。It's for sale, so don't sit on it.",
+          "section": false,
+        },
+        {
+          "en": "Please don't take pictures in the theater.",
+          "jp": "映画館の中で写真を撮らないでください。",
+          "raw": "映画館の中で写真を撮らないでください。Please don't take pictures in the theater.",
+          "section": false,
+        },
+        {
+          "en": "Please don’t  turn off your computer as we will use it later.",
+          "jp": "後で使いますから、コンピューターの電源は切らないでください。",
+          "raw": "後で使いますから、コンピューターの電源は切らないでください。Please don’t  turn off your computer as we will use it later.",
+          "section": false,
+        },
+        {
+          "en": "Please do not smoke in this area.",
+          "jp": "ここではタバコを吸わないでください。",
+          "raw": "ここではタバコを吸わないでください。Please do not smoke in this area.",
+          "section": false,
+        },
+        {
+          "en": "Please do not feed the animals.",
+          "jp": "動物にエサを与えないでください。",
+          "raw": "動物にエサを与えないでください。Please do not feed the animals.",
+          "section": false,
+        },
+        {
+          "en": "Please do not throw garbage here.",
+          "jp": "ここにゴミを捨てないでください。",
+          "raw": "ここにゴミを捨てないでください。Please do not throw garbage here.",
+          "section": false,
+        },
+        {
+          "en": "Please do not park your bicycles here.",
+          "jp": "ここに自転車をとめないでください。",
+          "raw": "ここに自転車をとめないでください。Please do not park your bicycles here.",
+          "section": false,
+        },
+        {
+          "en": "Please do not sleep during the class.",
+          "jp": "授業中に寝ないでください。",
+          "raw": "授業中に寝ないでください。Please do not sleep during the class.",
+          "section": false,
+        },
+        {
+          "en": "Please do not open the windows.",
+          "jp": "すみません、窓を開けないでください。",
+          "raw": "すみません、窓を開けないでください。Please do not open the windows.",
+          "section": false,
+        },
+        {
+          "en": "Please don't take a bath today.",
+          "jp": "今日はお風呂に入らないでください。",
+          "raw": "今日はお風呂に入らないでください。Please don't take a bath today.",
+          "section": false,
+        },
+        {
+          "en": "Hey, don't push me.",
+          "jp": "ちょっと、押さないでくださいよ。",
+          "raw": "ちょっと、押さないでくださいよ。Hey, don't push me.",
+          "section": false,
+        },
+        {
+          "en": "Please don't go in there.",
+          "jp": "そこには入らないでください。",
+          "raw": "そこには入らないでください。Please don't go in there.",
+          "section": false,
+        },
+        {
+          "en": "Please don't eat or drink in the library.",
+          "jp": "図書館では食べたり、飲んだりしないでください。",
+          "raw": "図書館では食べたり、飲んだりしないでください。Please don't eat or drink in the library.",
+          "section": false,
+        },
+        {
+          "en": "Please don't be noisy in the library.  文型イラスト〜ないでください2020.7.20日本語の初級文型「〜ないでください」の導入や練習に役立つ絵カードです。 １０枚１2０円で販売します。 購入はnoteでできます。 「〜ないでください）」の絵カードを購入する...この文型が登場する教科",
+          "jp": "図書館では、うるさくしないでください。",
+          "raw": "図書館では、うるさくしないでください。Please don't be noisy in the library.  文型イラスト〜ないでください2020.7.20日本語の初級文型「〜ないでください」の導入や練習に役立つ絵カードです。 １０枚１2０円で販売します。 購入はnoteでできます。 「〜ないでください）」の絵カードを購入する...この文型が登場する教科",
+          "section": false,
+        },
+      ],
+      "section": null,
+    },
+  ],
+  "link": "https://nihongokyoshi-net.com/2019/02/23/jlptn5-grammar-naidekudasai/",
+}
+`;
+
+exports[`parse jlptn5-grammar-nakerebanaranai 1`] = `
+{
+  "definitions": {
+    "[備考]": [
+      "質問文「〜なければなりませんか」に対して、「いいえ」で答える場合「〜なくてもいいです」の文型が使われる。",
+    ],
+    "conjugation": [
+      "V（ナイ形)な",
+      "い",
+      "+ ければならない",
+    ],
+    "jlpt": [
+      "N5",
+    ],
+    "meaning_en": [
+      "must / have to",
+      "Used when the speaker says that it is necessary to do something or it must be done.",
+    ],
+    "meaning_jp": [
+      "〜する義務がある / 〜する必要がある",
+    ],
+    "name": "〜なければならない",
+  },
+  "examples": [
+    {
+      "entries": [
+        {
+          "en": "I have to return the book by the end of the day.",
+          "jp": "今日中に本を返さなければなりません。",
+          "raw": "今日中に本を返さなければなりません。I have to return the book by the end of the day.",
+          "section": false,
+        },
+        {
+          "en": "You have to show your passport when you get on the plane.",
+          "jp": "飛行機に乗る時はパスポートを見せなければなりません。",
+          "raw": "飛行機に乗る時はパスポートを見せなければなりません。You have to show your passport when you get on the plane.",
+          "section": false,
+        },
+        {
+          "en": "I have to be at school by 8:00 a.m. because there is an event at the school tomorrow.",
+          "jp": "明日は学校でイベントがありますから、８時までに学校に行かなければなりません。",
+          "raw": "明日は学校でイベントがありますから、８時までに学校に行かなければなりません。I have to be at school by 8:00 a.m. because there is an event at the school tomorrow.",
+          "section": false,
+        },
+        {
+          "en": "I have a test coming up soon, so I have to study.",
+          "jp": "もうすぐテストですから、勉強しなければなりません。",
+          "raw": "もうすぐテストですから、勉強しなければなりません。I have a test coming up soon, so I have to study.",
+          "section": false,
+        },
+        {
+          "en": "I have to submit my report by 5:00 today.",
+          "jp": "今日の５時までにレポートを出さなければなりません。",
+          "raw": "今日の５時までにレポートを出さなければなりません。I have to submit my report by 5:00 today.",
+          "section": false,
+        },
+        {
+          "en": "Teacher, do I have to memorize all the kanji in this lesson by tomorrow?",
+          "jp": "先生、明日までにこの課の漢字を全部覚えなければなりませんか。",
+          "raw": "先生、明日までにこの課の漢字を全部覚えなければなりませんか。Teacher, do I have to memorize all the kanji in this lesson by tomorrow?",
+          "section": false,
+        },
+        {
+          "en": "In Japan, you have to take off your shoes when you enter a house.",
+          "jp": "日本では家に入る時、靴を脱がなければなりません。",
+          "raw": "日本では家に入る時、靴を脱がなければなりません。In Japan, you have to take off your shoes when you enter a house.",
+          "section": false,
+        },
+        {
+          "en": "You have to wear a seatbelt when you get into a car.",
+          "jp": "車に乗る時はシートベルトをしなければなりません。",
+          "raw": "車に乗る時はシートベルトをしなければなりません。You have to wear a seatbelt when you get into a car.",
+          "section": false,
+        },
+        {
+          "en": "I have to make a presentation at the meeting tomorrow.",
+          "jp": "明日の会議では私が発表しなければなりません。",
+          "raw": "明日の会議では私が発表しなければなりません。I have to make a presentation at the meeting tomorrow.",
+          "section": false,
+        },
+        {
+          "en": "I have to work late because my work is not finished yet.",
+          "jp": "仕事がまだ終わらないので、残業しなければなりません。",
+          "raw": "仕事がまだ終わらないので、残業しなければなりません。I have to work late because my work is not finished yet.",
+          "section": false,
+        },
+        {
+          "en": "I have to take this medicine every day.",
+          "jp": "この薬を毎日飲まなければならない。",
+          "raw": "この薬を毎日飲まなければならない。I have to take this medicine every day.  ",
+          "section": false,
+        },
+      ],
+      "section": null,
+    },
+  ],
+  "link": "https://nihongokyoshi-net.com/2020/02/06/jlptn5-grammar-nakerebanaranai/",
+}
+`;
+
+exports[`parse jlptn5-grammar-nakutemoii 1`] = `
+{
+  "definitions": {
+    "conjugation": [
+      "V（ナイ形）な",
+      "い",
+      "+ くてもいい",
+    ],
+    "jlpt": [
+      "N5",
+    ],
+    "meaning_en": [
+      "don't have to",
+    ],
+    "meaning_jp": [
+      "〜する必要がない。",
+    ],
+    "name": "〜なくてもいい",
+  },
+  "examples": [
+    {
+      "entries": [
+        {
+          "en": "Yay. I have a day off tomorrow , so I don't have to go to school.",
+          "jp": "やったー。明日は休みだから、学校に行かなくてもいい。",
+          "raw": "やったー。明日は休みだから、学校に行かなくてもいい。Yay. I have a day off tomorrow , so I don't have to go to school.",
+          "section": false,
+        },
+        {
+          "en": "Those who got 80 points or more in the previous test don't have to take make-up classes.",
+          "jp": "前のテストで８０点以上とった人は、補習授業を受けなくてもいいです。",
+          "raw": "前のテストで８０点以上とった人は、補習授業を受けなくてもいいです。Those who got 80 points or more in the previous test don't have to take make-up classes.",
+          "section": false,
+        },
+        {
+          "en": "You don't need to be able to write this kanji yet. It's okay if you can only read it.",
+          "jp": "この漢字はまだ書けなくてもいいです。読めれば大丈夫です。",
+          "raw": "この漢字はまだ書けなくてもいいです。読めれば大丈夫です。You don't need to be able to write this kanji yet. It's okay if you can only read it.",
+          "section": false,
+        },
+        {
+          "en": "Elementary school students and younger children do not have to pay.",
+          "jp": "小学生以下はお金を払わなくていいです。",
+          "raw": "小学生以下はお金を払わなくていいです。Elementary school students and younger children do not have to pay.",
+          "section": false,
+        },
+        {
+          "en": "It's going to be sunny today, so you don't need to bring an umbrella.",
+          "jp": "今日は晴れるので、傘を持って行かなくてもいいですよ。",
+          "raw": "今日は晴れるので、傘を持って行かなくてもいいですよ。It's going to be sunny today, so you don't need to bring an umbrella.",
+          "section": false,
+        },
+        {
+          "en": "In my country, you don't have to take off your shoes when you enter a house.",
+          "jp": "私の国では家に入るとき、靴を脱がなくてもいいです。",
+          "raw": "私の国では家に入るとき、靴を脱がなくてもいいです。In my country, you don't have to take off your shoes when you enter a house.",
+          "section": false,
+        },
+        {
+          "en": "I got a ticket to a concert, would you like to see it with me?",
+          "jp": "コンサートのチケットをもらったんですが、一緒に見ませんか。",
+          "raw": "コンサートのチケットをもらったんですが、一緒に見ませんか。I got a ticket to a concert, would you like to see it with me?",
+          "section": false,
+        },
+        {
+          "en": "You don't have to come to school tomorrow. Because the school is closed tomorrow.",
+          "jp": "明日は学校に来なくていいですよ。休みになりましたから。",
+          "raw": "明日は学校に来なくていいですよ。休みになりましたから。You don't have to come to school tomorrow. Because the school is closed tomorrow.",
+          "section": false,
+        },
+        {
+          "en": "If you are full, you don't have to eat.",
+          "jp": "お腹がいっぱいでしたら、無理に食べなくてもいいですよ。",
+          "raw": "お腹がいっぱいでしたら、無理に食べなくてもいいですよ。If you are full, you don't have to eat.",
+          "section": false,
+        },
+        {
+          "en": "You don't have to write anything here.",
+          "jp": "ここには何も書かなくてもいいです。",
+          "raw": "ここには何も書かなくてもいいです。You don't have to write anything here.",
+          "section": false,
+        },
+        {
+          "en": "You don't have to say anything like that.",
+          "jp": "そんなこと言わなくてもいいじゃん。",
+          "raw": "そんなこと言わなくてもいいじゃん。You don't have to say anything like that.  ",
+          "section": false,
+        },
+      ],
+      "section": null,
+    },
+  ],
+  "link": "https://nihongokyoshi-net.com/2019/09/04/jlptn5-grammar-nakutemoii/",
+}
+`;
+
+exports[`parse jlptn5-grammar-naru 1`] = `
+{
+  "definitions": {
+    "conjugation": [
+      "イAく ＋ なる",
+      "ナAに + なる",
+      "Nに + なる",
+    ],
+    "jlpt": [
+      "N5",
+    ],
+    "meaning_en": [
+      "become",
+    ],
+    "meaning_jp": [
+      "状態の変化を表す。Aという状態が変わり、Bという状態に変化する。",
+    ],
+    "name": "〜なる",
+  },
+  "examples": [
+    {
+      "entries": [
+        {
+          "en": "I haven't seen you in five years, but you've gotten a lot taller.",
+          "jp": "５年ぶりに会ったけど、だいぶ背が高くなったね。",
+          "raw": "５年ぶりに会ったけど、だいぶ背が高くなったね。I haven't seen you in five years, but you've gotten a lot taller.",
+          "section": false,
+        },
+        {
+          "en": "It's getting a little hot in June, isn't it?",
+          "jp": "６月に入って、ちょっと暑くなったね。",
+          "raw": "６月に入って、ちょっと暑くなったね。It's getting a little hot in June, isn't it?",
+          "section": false,
+        },
+        {
+          "en": "It's getting dark. Shall we go home soon?",
+          "jp": "暗くなってきましたね。そろそろ帰りましょうか。",
+          "raw": "暗くなってきましたね。そろそろ帰りましょうか。It's getting dark. Shall we go home soon?",
+          "section": false,
+        },
+        {
+          "en": "I haven't gone for a haircut at all, so my hair has gotten longer.",
+          "jp": "全然、散髪に行ってないので、髪が長くなりました。",
+          "raw": "全然、散髪に行ってないので、髪が長くなりました。I haven't gone for a haircut at all, so my hair has gotten longer.",
+          "section": false,
+        },
+        {
+          "en": "I took some medicine, so I feel much better.",
+          "jp": "薬を飲んだので、だいぶ良くなりました。",
+          "raw": "薬を飲んだので、だいぶ良くなりました。I took some medicine, so I feel much better.",
+          "section": false,
+        },
+        {
+          "en": "In order to get stronger, I need to exercise every day.",
+          "jp": "もっと強くなるためには、毎日、運動する必要がある。",
+          "raw": "もっと強くなるためには、毎日、運動する必要がある。In order to get stronger, I need to exercise every day.",
+          "section": false,
+        },
+      ],
+      "section": "い形容詞文",
+    },
+    {
+      "entries": [
+        {
+          "en": "I've been studying Japanese for two years, and my Japanese has gotten much better.",
+          "jp": "２年間、日本語を勉強して、日本語がだいぶ上手になりました。",
+          "raw": "２年間、日本語を勉強して、日本語がだいぶ上手になりました。I've been studying Japanese for two years, and my Japanese has gotten much better.",
+          "section": false,
+        },
+        {
+          "en": "My room has been cleaned before I saw it.",
+          "jp": "見ないうちに、綺麗になりましたね。",
+          "raw": "見ないうちに、綺麗になりましたね。My room has been cleaned before I saw it.",
+          "section": false,
+        },
+        {
+          "en": "I cleaned my room, so it's clean now.",
+          "jp": "掃除したので、部屋が綺麗になりました。",
+          "raw": "掃除したので、部屋が綺麗になりました。I cleaned my room, so it's clean now.",
+          "section": false,
+        },
+        {
+          "en": "I like natto more now.",
+          "jp": "納豆が好きになりました。",
+          "raw": "納豆が好きになりました。I like natto more now.",
+          "section": false,
+        },
+        {
+          "en": "Compared to 10 years ago, this city has become more lively.",
+          "jp": "１０年前に比べて、この街は賑やかになりました。",
+          "raw": "１０年前に比べて、この街は賑やかになりました。Compared to 10 years ago, this city has become more lively.",
+          "section": false,
+        },
+        {
+          "en": "This place has been featured by many people on Instagram and has become famous.",
+          "jp": "この場所はインスタグラムでたくさんの人に紹介されて、有名になりました。",
+          "raw": "この場所はインスタグラムでたくさんの人に紹介されて、有名になりました。This place has been featured by many people on Instagram and has become famous.",
+          "section": false,
+        },
+        {
+          "en": "I feel better after sleeping a lot.",
+          "jp": "たくさん、寝たら元気になりました。",
+          "raw": "たくさん、寝たら元気になりました。I feel better after sleeping a lot.",
+          "section": false,
+        },
+      ],
+      "section": "な形容詞文",
+    },
+    {
+      "entries": [
+        {
+          "en": "I'm turning 20 years old this year.",
+          "jp": "今年、私は２０歳になります。",
+          "raw": "今年、私は２０歳になります。I'm turning 20 years old this year.",
+          "section": false,
+        },
+        {
+          "en": "The event this weekend has been cancelled.",
+          "jp": "今週末のイベントは中止になりました。",
+          "raw": "今週末のイベントは中止になりました。The event this weekend has been cancelled.",
+          "section": false,
+        },
+        {
+          "en": "He won the lottery and became rich.9時になったら、テストを始めましょう。Let's start the exam at 9 o’clock.",
+          "jp": "彼は宝くじに当たって、お金持ちになりました。",
+          "raw": "彼は宝くじに当たって、お金持ちになりました。He won the lottery and became rich.9時になったら、テストを始めましょう。Let's start the exam at 9 o’clock.",
+          "section": false,
+        },
+        {
+          "en": "What do you want to be in the future?",
+          "jp": "将来、何になりたいですか。",
+          "raw": "将来、何になりたいですか。What do you want to be in the future?",
+          "section": false,
+        },
+        {
+          "en": undefined,
+          "jp": "田中さんは大学を卒業して医者になりました。Mr. Tanaka became a doctor after graduating from the university.  この文型が使われている教科書みんなの日本語1　第１９課  みんなの日本語 初級I 第2版 本冊 Amazon 楽天市場 Yahooショッピング 紀伊國屋書店教案【教案】みんなの日本語初級１: 第１９課2017.12.4使用教材 できるようになること（Can-do） ・経験の有無が言える。 ・物事の状況の変化が言える。 学習項目（文型） Vタことがあります Vタり、Vタりします イAくなります / ナAになります / Nになります 準備物 以下の絵教材を利用する。 みんなの日本語1 絵教材CD-ROM げんきな絵カ...まるごと 日本のことばと文化 初級１ A2 りかい 第３課  Marugot
+o: Japanese language and culture Elementary1 A2 Coursebook for communicative language competences "Rikai" / まるごと 日本のことばと文化 初級1 A2 りかい (JF Standard coursebook / JF日本語教育スタンダード準拠コースブック) Amazon 楽天市場 Yahooショッピン",
+          "raw": "田中さんは大学を卒業して医者になりました。Mr. Tanaka became a doctor after graduating from the university.  この文型が使われている教科書みんなの日本語1　第１９課  みんなの日本語 初級I 第2版 本冊 Amazon 楽天市場 Yahooショッピング 紀伊國屋書店教案【教案】みんなの日本語初級１：第１９課2017.12.4使用教材 できるようになること（Can-do） ・経験の有無が言える。 ・物事の状況の変化が言える。 学習項目（文型） Vタことがあります Vタり、Vタりします イAくなります / ナAになります / Nになります 準備物 以下の絵教材を利用する。 みんなの日本語1 絵教材CD-ROM げんきな絵カ...まるごと 日本のことばと文化 初級１ A2 りかい 第３課  Marugoto: Japanese language and culture Elementary1 A2 Coursebook for communicative language competences "Rikai" / まるごと 日本のことばと文化 初級1 A2 りかい (JF Standard coursebook / JF日本語教育スタンダード準拠コースブック) Amazon 楽天市場 Yahooショッピン",
+          "section": false,
+        },
+      ],
+      "section": "名詞文",
+    },
+  ],
+  "link": "https://nihongokyoshi-net.com/2019/03/13/jlptn5-grammar-naru/",
+}
+`;
+
+exports[`parse jlptn5-grammar-niikimasu 1`] = `
+{
+  "definitions": {
+    "conjugation": [
+      "N（場所）へ +  V（ます形）",
+      "ます",
+      "+ に行きます / 来ます / 帰ります",
+      "N1（場所）へ +  N2　+ に行きます / 来ます / 帰ります  ※N2はする動詞のN",
+    ],
+    "jlpt": [
+      "N5",
+    ],
+    "meaning_en": [
+      ""go/come/go home (place) to do ~"",
+      "Used to indicate the purpose of going to a specific place.",
+    ],
+    "meaning_jp": [
+      "その場所へ行く目的を表す。",
+    ],
+    "name": "〜に行きます / 来ます / 帰ります",
+  },
+  "examples": [
+    {
+      "entries": [
+        {
+          "en": "I'm going to the convenience store to buy some water.",
+          "jp": "コンビニへ水を買いに行きます。",
+          "raw": "コンビニへ水を買いに行きます。I'm going to the convenience store to buy some water.",
+          "section": false,
+        },
+        {
+          "en": "Yesterday, I went to a department store to buy clothes.",
+          "jp": "昨日、デパートへ服を買いに行きました。",
+          "raw": "昨日、デパートへ服を買いに行きました。Yesterday, I went to a department store to buy clothes.",
+          "section": false,
+        },
+        {
+          "en": "I'm going to the mall to watch a movie. 図書館へ本を借りに行きます。I am going to the library to check out some books.",
+          "jp": "モールへ映画を見に行きます。",
+          "raw": "モールへ映画を見に行きます。I'm going to the mall to watch a movie. 図書館へ本を借りに行きます。I am going to the library to check out some books.",
+          "section": false,
+        },
+        {
+          "en": "I'm going home to get something I forgot.",
+          "jp": "家へ忘れ物を取りに帰ります。",
+          "raw": "家へ忘れ物を取りに帰ります。I'm going home to get something I forgot.",
+          "section": false,
+        },
+        {
+          "en": "I am going to the post office to send a letter.",
+          "jp": "郵便局へ手紙を出しに行きます。",
+          "raw": "郵便局へ手紙を出しに行きます。I am going to the post office to send a letter.",
+          "section": false,
+        },
+        {
+          "en": "I will go to Kyoto to see my friends.",
+          "jp": "京都へ友達に会いに行きます。",
+          "raw": "京都へ友達に会いに行きます。I will go to Kyoto to see my friends.",
+          "section": false,
+        },
+        {
+          "en": "I will go to the zoo to see the pandas.",
+          "jp": "動物園へパンダを見に行きます。",
+          "raw": "動物園へパンダを見に行きます。I will go to the zoo to see the pandas.",
+          "section": false,
+        },
+        {
+          "en": "I will go to the cafeteria/canteen to have lunch.",
+          "jp": "食堂へ昼ご飯を食べに行きます。",
+          "raw": "食堂へ昼ご飯を食べに行きます。I will go to the cafeteria/canteen to have lunch.",
+          "section": false,
+        },
+        {
+          "en": "I will go to the hair salon to get my hair cut.",
+          "jp": "美容院へ髪を切りに行きます。",
+          "raw": "美容院へ髪を切りに行きます。I will go to the hair salon to get my hair cut.",
+          "section": false,
+        },
+        {
+          "en": "I will go to the mountains to take pictures.",
+          "jp": "山へ写真を撮りに行きます。",
+          "raw": "山へ写真を撮りに行きます。I will go to the mountains to take pictures.",
+          "section": false,
+        },
+        {
+          "en": "I'm going to go swimming in the sea.",
+          "jp": "海へ泳ぎに行きます。",
+          "raw": "海へ泳ぎに行きます。I'm going to go swimming in the sea.",
+          "section": false,
+        },
+        {
+          "en": "What did you come to Japan to do?",
+          "jp": "日本へ何をしに来ましたか。",
+          "raw": "日本へ何をしに来ましたか。What did you come to Japan to do?",
+          "section": false,
+        },
+        {
+          "en": "Who did you go out to eat with yesterday?",
+          "jp": "昨日誰とご飯を食べに行ったの？",
+          "raw": "昨日誰とご飯を食べに行ったの？Who did you go out to eat with yesterday?  ",
+          "section": false,
+        },
+      ],
+      "section": "Vにいきます",
+    },
+    {
+      "entries": [
+        {
+          "en": "I'm going shopping at a department store tomorrow.",
+          "jp": "明日、デパートへ買い物に行きます。",
+          "raw": "明日、デパートへ買い物に行きます。I'm going shopping at a department store tomorrow.",
+          "section": false,
+        },
+        {
+          "en": "I'm going to have a meal at a restaurant.",
+          "jp": "レストランへ食事に行きます。",
+          "raw": "レストランへ食事に行きます。I'm going to have a meal at a restaurant.",
+          "section": false,
+        },
+        {
+          "en": "I'm going fishing in the river.",
+          "jp": "川へ釣りに行きます。",
+          "raw": "川へ釣りに行きます。I'm going fishing in the river.",
+          "section": false,
+        },
+        {
+          "en": "I'm going to the park to see cherry blossoms.",
+          "jp": "公園へ花見に行きます。",
+          "raw": "公園へ花見に行きます。I'm going to the park to see cherry blossoms.",
+          "section": false,
+        },
+        {
+          "en": "I am going on a business trip to America.",
+          "jp": "アメリカへ出張に行きます。",
+          "raw": "アメリカへ出張に行きます。I am going on a business trip to America.",
+          "section": false,
+        },
+        {
+          "en": "I am coming to Japan to study Japanese.",
+          "jp": "日本へ日本語の勉強に来ました。",
+          "raw": "日本へ日本語の勉強に来ました。I am coming to Japan to study Japanese.",
+          "section": false,
+        },
+        {
+          "en": "I'm going for a walk in the park.",
+          "jp": "公園へ散歩に行きます。",
+          "raw": "公園へ散歩に行きます。I'm going for a walk in the park.",
+          "section": false,
+        },
+        {
+          "en": "I will go on a trip to Kyoto.",
+          "jp": "京都へ旅行に行きます。",
+          "raw": "京都へ旅行に行きます。I will go on a trip to Kyoto.",
+          "section": false,
+        },
+        {
+          "en": "Where do you often go to shop?",
+          "jp": "よくどこへ買い物に行きますか。",
+          "raw": "よくどこへ買い物に行きますか。Where do you often go to shop?  ",
+          "section": false,
+        },
+      ],
+      "section": "Nにいきます",
+    },
+  ],
+  "link": "https://nihongokyoshi-net.com/2019/12/10/jlptn5-grammar-niikimasu/",
+}
+`;
+
+exports[`parse jlptn5-grammar-tai 1`] = `
+{
+  "definitions": {
+    "This sentence pattern cannot be used to describe what the third person (he, she, etc.) wants to do. If you use this sentence pattern to a superior/senior person, it is rude. So it’ better not to use it to them.": [],
+    "[備考]": [
+      "第三人称（彼、彼女など）のしたいことを言う時は、この文型は使えない。",
+      "目上の人に「〜たいですか」は使えない（使うと失礼）。",
+      "い形容詞と同じように活用する。",
+      "→ 行きたいです / 行きたくないです / 行きたかったです / 行きたくなかったです",
+    ],
+    "conjugation": [
+      "V(ます形)",
+      "ます",
+      "+ たい",
+    ],
+    "jlpt": [
+      "N5",
+    ],
+    "meaning_en": [
+      ""want to do"",
+      "Used to express the speaker’s desire to do something.",
+    ],
+    "meaning_jp": [
+      "行為の欲求や希望などを表す文型。",
+    ],
+    "name": "〜たい",
+  },
+  "examples": [
+    {
+      "entries": [
+        {
+          "en": "I want to go to the beach during my summer vacation.",
+          "jp": "夏休みは海に行きたいです。",
+          "raw": "夏休みは海に行きたいです。I want to go to the beach during my summer vacation.",
+          "section": false,
+        },
+        {
+          "en": "I want to eat ramen tonight.",
+          "jp": "今夜はラーメンが食べたいです。",
+          "raw": "今夜はラーメンが食べたいです。I want to eat ramen tonight.",
+          "section": false,
+        },
+        {
+          "en": "I want to study Japanese more.",
+          "jp": "日本語をもっと勉強したいです。",
+          "raw": "日本語をもっと勉強したいです。I want to study Japanese more.",
+          "section": false,
+        },
+        {
+          "en": "I want to watch a movie on weekends.",
+          "jp": "週末は映画をみたいです。",
+          "raw": "週末は映画をみたいです。I want to watch a movie on weekends.",
+          "section": false,
+        },
+        {
+          "en": "I want to get married soon.",
+          "jp": "早く結婚したい。",
+          "raw": "早く結婚したい。I want to get married soon.",
+          "section": false,
+        },
+        {
+          "en": "Ah～, I want to go home soon.",
+          "jp": "あ〜、早く家に帰りたい。",
+          "raw": "あ〜、早く家に帰りたい。Ah～, I want to go home soon.",
+          "section": false,
+        },
+        {
+          "en": "I want to meet my family in my country.",
+          "jp": "国の家族に会いたいです。",
+          "raw": "国の家族に会いたいです。I want to meet my family in my country.",
+          "section": false,
+        },
+        {
+          "en": "I want to study Korean.",
+          "jp": "韓国語も勉強したいです。",
+          "raw": "韓国語も勉強したいです。I want to study Korean.",
+          "section": false,
+        },
+        {
+          "en": "I want to rest at home today.",
+          "jp": "今日は家で休みたいです。",
+          "raw": "今日は家で休みたいです。I want to rest at home today.",
+          "section": false,
+        },
+        {
+          "en": "I want to work in a Japanese company in the future.",
+          "jp": "将来は日本の会社で働きたいです。",
+          "raw": "将来は日本の会社で働きたいです。I want to work in a Japanese company in the future.",
+          "section": false,
+        },
+        {
+          "en": "I don't want to go anywhere today.",
+          "jp": "今日はどこへも行きたくないです。",
+          "raw": "今日はどこへも行きたくないです。I don't want to go anywhere today.",
+          "section": false,
+        },
+        {
+          "en": "I'm not a fan of scary movies., so I don't want to watch them.",
+          "jp": "ホラー映画は苦手ですから、見たくないです。",
+          "raw": "ホラー映画は苦手ですから、見たくないです。I'm not a fan of scary movies., so I don't want to watch them.",
+          "section": false,
+        },
+        {
+          "en": "If you had a lot of money, what would you like to do?",
+          "jp": "お金がたくさんあったら、何をしたいですか。",
+          "raw": "お金がたくさんあったら、何をしたいですか。If you had a lot of money, what would you like to do?  ",
+          "section": false,
+        },
+      ],
+      "section": null,
+    },
+  ],
+  "link": "https://nihongokyoshi-net.com/2020/02/12/jlptn5-grammar-tai/",
+}
+`;
+
+exports[`parse jlptn5-grammar-taritari 1`] = `
+{
+  "definitions": {
+    "[備考]": [
+      "「たり」１つでも使うことができる。",
+    ],
+    "conjugation": [
+      "V1（タ形）+ り +  V2 （タ形）+ り",
+    ],
+    "jlpt": [
+      "N5",
+    ],
+    "meaning_en": [
+      "V1 and V2",
+      "An expression to mention two or three representative items from among several.",
+    ],
+    "meaning_jp": [
+      "複数ある事柄の中から代表的なものを２、３挙げて言う表現。",
+    ],
+    "name": "〜たり〜たり",
+  },
+  "examples": [
+    {
+      "entries": [
+        {
+          "en": "On Saturday, I went shopping and watched a movie.",
+          "jp": "土曜日は買い物したり、映画を見たりしました。",
+          "raw": "土曜日は買い物したり、映画を見たりしました。On Saturday, I went shopping and watched a movie.",
+          "section": false,
+        },
+        {
+          "en": "On my days off, I usually watch YouTube or listen to music at home.",
+          "jp": "休みの日は、たいてい家でYouTubeを見たり、音楽を聞いたりしています。",
+          "raw": "休みの日は、たいてい家でYouTubeを見たり、音楽を聞いたりしています。On my days off, I usually watch YouTube or listen to music at home.",
+          "section": false,
+        },
+        {
+          "en": "I plan to watch fireworks and go swimming in the sea during my upcoming summer vacation.",
+          "jp": "今度の夏休みは、花火を見たり、海へ泳ぎにいったりするつもりです。",
+          "raw": "今度の夏休みは、花火を見たり、海へ泳ぎにいったりするつもりです。I plan to watch fireworks and go swimming in the sea during my upcoming summer vacation.",
+          "section": false,
+        },
+        {
+          "en": "I had a fun school life with field trips and sports festivals.",
+          "jp": "学校生活は遠足があったり、体育祭があったりして、楽しかった。",
+          "raw": "学校生活は遠足があったり、体育祭があったりして、楽しかった。I had a fun school life with field trips and sports festivals.",
+          "section": false,
+        },
+        {
+          "en": "I ate local food and traveled during my study abroad.",
+          "jp": "留学中に現地の料理を食べたり、旅行したりしました。",
+          "raw": "留学中に現地の料理を食べたり、旅行したりしました。I ate local food and traveled during my study abroad.",
+          "section": false,
+        },
+        {
+          "en": "I am busy today doing homework and cleaning my room.",
+          "jp": "今日は宿題をしたり、部屋の掃除をしたり、忙しいです。",
+          "raw": "今日は宿題をしたり、部屋の掃除をしたり、忙しいです。I am busy today doing homework and cleaning my room.",
+          "section": false,
+        },
+        {
+          "en": "There are various people in the cafe, such as people studying and people working.",
+          "jp": "カフェには勉強する人がいたり、仕事をする人がいたり、色々な人がいます。",
+          "raw": "カフェには勉強する人がいたり、仕事をする人がいたり、色々な人がいます。There are various people in the cafe, such as people studying and people working.",
+          "section": false,
+        },
+        {
+          "en": "I enjoy interacting with foreigners and learning foreign languages.",
+          "jp": "私は外国人の人と交流したり、外国語を学ぶのが好きです。",
+          "raw": "私は外国人の人と交流したり、外国語を学ぶのが好きです。I enjoy interacting with foreigners and learning foreign languages.",
+          "section": false,
+        },
+        {
+          "en": "I was very busy today doing homework and writing letters.",
+          "jp": "宿題をしたり、手紙を書いたり、今日はとても忙しかった。",
+          "raw": "宿題をしたり、手紙を書いたり、今日はとても忙しかった。I was very busy today doing homework and writing letters.",
+          "section": false,
+        },
+        {
+          "en": "Please tell me what you felt after seeing and hearing something.",
+          "jp": "見たり、聞いたりして感じたことを話してください。",
+          "raw": "見たり、聞いたりして感じたことを話してください。Please tell me what you felt after seeing and hearing something.",
+          "section": false,
+        },
+        {
+          "en": "and V（ます形）+ つ、V（ます形） + つ N1 例文 ・どうしても欲しいパソコ...この文型が登場する教科",
+          "jp": "類似文型【JLPT N１】文法・例文: 〜つ〜つ2019.2.15文型: 〜つ〜つ 〜たり〜たり 「〜たり〜たり」の慣用的な表現で、使用場面は限られる。同一場面、同じ時間帯の中で起こっていることを表すので、次のようなのは使えない。 誤用例: 明日は勉強しつ、本を読みつするつもりだ。",
+          "raw": "類似文型【JLPT N１】文法・例文：〜つ〜つ2019.2.15文型：〜つ〜つ 〜たり〜たり 「〜たり〜たり」の慣用的な表現で、使用場面は限られる。同一場面、同じ時間帯の中で起こっていることを表すので、次のようなのは使えない。 誤用例：明日は勉強しつ、本を読みつするつもりだ。 and V（ます形）+ つ、V（ます形） + つ N1 例文 ・どうしても欲しいパソコ...この文型が登場する教科",
+          "section": false,
+        },
+      ],
+      "section": null,
+    },
+  ],
+  "link": "https://nihongokyoshi-net.com/2019/06/18/jlptn5-grammar-taritari/",
+}
+`;
+
+exports[`parse jlptn5-grammar-tekara 1`] = `
+{
+  "definitions": {
+    "[備考]": [
+      "「後文の事柄が起こる条件として、まず前文の事柄が起こる必要がある」というニュアンスがある。",
+    ],
+    "conjugation": [
+      "V（て形）+ から",
+    ],
+    "jlpt": [
+      "N5",
+    ],
+    "meaning_en": [
+      ""and then / after"",
+      "This expresses that X is done before Y.",
+    ],
+    "meaning_jp": [
+      "XてからY：Xを先に行い、それが終わったらYを行う。",
+    ],
+    "name": "〜てから",
+  },
+  "examples": [
+    {
+      "entries": [
+        {
+          "en": "I wash my hands before eating.",
+          "jp": "手を洗ってからご飯を食べます。",
+          "raw": "手を洗ってからご飯を食べます。I wash my hands before eating.",
+          "section": false,
+        },
+        {
+          "en": "After doing the laundry, I'll clean the room.",
+          "jp": "洗濯してから、部屋を掃除します。",
+          "raw": "洗濯してから、部屋を掃除します。After doing the laundry, I'll clean the room.",
+          "section": false,
+        },
+        {
+          "en": "Please take off your shoes before entering.",
+          "jp": "靴を脱いでから、入ってください。",
+          "raw": "靴を脱いでから、入ってください。Please take off your shoes before entering.",
+          "section": false,
+        },
+        {
+          "en": "Take your medicine after eating.",
+          "jp": "ご飯を食べてから、薬を飲んでください。",
+          "raw": "ご飯を食べてから、薬を飲んでください。Take your medicine after eating.",
+          "section": false,
+        },
+        {
+          "en": "I brush my teeth before going to bed.",
+          "jp": "歯を磨いてから寝ます。",
+          "raw": "歯を磨いてから寝ます。I brush my teeth before going to bed.",
+          "section": false,
+        },
+        {
+          "en": "I'll eat dinner after coming home.",
+          "jp": "家に帰ってから、ご飯を食べます。",
+          "raw": "家に帰ってから、ご飯を食べます。I'll eat dinner after coming home.",
+          "section": false,
+        },
+        {
+          "en": "Please insert money and then press the button.",
+          "jp": "お金を入れてからボタンを押してください。",
+          "raw": "お金を入れてからボタンを押してください。Please insert money and then press the button.",
+          "section": false,
+        },
+        {
+          "en": "Let's cook after washing our hands.",
+          "jp": "手を洗ってから、料理をしましょう。",
+          "raw": "手を洗ってから、料理をしましょう。Let's cook after washing our hands.",
+          "section": false,
+        },
+        {
+          "en": "I'll sleep after finishing my homework.",
+          "jp": "宿題をしてから、寝ます。",
+          "raw": "宿題をしてから、寝ます。I'll sleep after finishing my homework.",
+          "section": false,
+        },
+        {
+          "en": "I'll study after watching TV.",
+          "jp": "テレビを見てから、勉強します。",
+          "raw": "テレビを見てから、勉強します。I'll study after watching TV.",
+          "section": false,
+        },
+        {
+          "en": "I have made many Japanese friends since I came to Japan.",
+          "jp": "日本に来てから、たくさん日本人の友達ができました。",
+          "raw": "日本に来てから、たくさん日本人の友達ができました。I have made many Japanese friends since I came to Japan.",
+          "section": false,
+        },
+        {
+          "en": "Please wait, then stand up after the airplane comes to a stop.",
+          "jp": "飛行機が止まってから、席を立ってください。",
+          "raw": "飛行機が止まってから、席を立ってください。Please wait, then stand up after the airplane comes to a stop.",
+          "section": false,
+        },
+        {
+          "en": "Please purchase your meal ticket first, then take a seat.",
+          "jp": "先に食券を買ってから、席に座ってください。",
+          "raw": "先に食券を買ってから、席に座ってください。Please purchase your meal ticket first, then take a seat.",
+          "section": false,
+        },
+        {
+          "en": undefined,
+          "jp": "文型イラスト〜てから2020.8.15日本語の初級文型「〜てから」の導入や練習に役立つ絵カードです。 １０枚１１０円で販売します。 購入はnoteでできます。 「〜てから」の絵カードを購入する...類似文",
+          "raw": "文型イラスト〜てから2020.8.15日本語の初級文型「〜てから」の導入や練習に役立つ絵カードです。 １０枚１１０円で販売します。 購入はnoteでできます。 「〜てから」の絵カードを購入する...類似文",
+          "section": false,
+        },
+      ],
+      "section": null,
+    },
+  ],
+  "link": "https://nihongokyoshi-net.com/2020/08/16/jlptn5-grammar-tekara/",
+}
+`;
+
+exports[`parse jlptn5-grammar-temoiidesuka 1`] = `
+{
+  "definitions": {
+    "conjugation": [
+      "V(て形) + てもいいですか",
+    ],
+    "jlpt": [
+      "N5",
+    ],
+    "meaning_en": [
+      "May I 〜? / Can I 〜?",
+      "Used for asking permission to do something.",
+    ],
+    "meaning_jp": [
+      "許可を求める時に使う表現",
+    ],
+    "name": "〜てもいいですか",
+    "のむ →　のんでもいいですか": [
+      "たべる → たべてもいいですか",
+      "みる → みてもいいですか",
+    ],
+  },
+  "examples": [
+    {
+      "entries": [
+        {
+          "en": "It's a little cold,  can I turn off the air conditioner?",
+          "jp": "ちょっと寒いので、エアコンを消してもいいですか。",
+          "raw": "ちょっと寒いので、エアコンを消してもいいですか。It's a little cold,  can I turn off the air conditioner?",
+          "section": false,
+        },
+        {
+          "en": "The room is a little dark, can I turn on the light?",
+          "jp": "部屋が少し暗いので、電気をつけてもいいですか。",
+          "raw": "部屋が少し暗いので、電気をつけてもいいですか。The room is a little dark, can I turn on the light?",
+          "section": false,
+        },
+        {
+          "en": "Excuse me, teacher. May I go to the restroom?",
+          "jp": "先生、すみません。トイレに行ってもいいですか。",
+          "raw": "先生、すみません。トイレに行ってもいいですか。Excuse me, teacher. May I go to the restroom?",
+          "section": false,
+        },
+        {
+          "en": undefined,
+          "jp": "（友達の家で）あ、これトムさんの卒業アルバム？ちょっと、見てもいい？At a friend's hous
+e:  Oh, is this Tom's graduation album? May I see it?",
+          "raw": "（友達の家で）あ、これトムさんの卒業アルバム？ちょっと、見てもいい？At a friend's house： Oh, is this Tom's graduation album? May I see it?",
+          "section": false,
+        },
+        {
+          "en": undefined,
+          "jp": "（電話で）先生、熱があるんです。今日、休んでもいいですか。On the phon
+e:  Teacher, I have a fever. May I take a day off today?",
+          "raw": "（電話で）先生、熱があるんです。今日、休んでもいいですか。On the phone： Teacher, I have a fever. May I take a day off today?",
+          "section": false,
+        },
+        {
+          "en": "Teacher, May I use the dictionary during the test?",
+          "jp": "先生、テストの時、辞書を使ってもいいですか。",
+          "raw": "先生、テストの時、辞書を使ってもいいですか。Teacher, May I use the dictionary during the test?",
+          "section": false,
+        },
+        {
+          "en": "Excuse me. I forgot my eraser, can I borrow yours?",
+          "jp": "すみません。消しゴムを忘れてしまったので、ちょっと借りてもいいですか。",
+          "raw": "すみません。消しゴムを忘れてしまったので、ちょっと借りてもいいですか。Excuse me. I forgot my eraser, can I borrow yours?",
+          "section": false,
+        },
+        {
+          "en": "It's my wife's birthday today, may I go home early?",
+          "jp": "今日、妻の誕生日なので早めに帰ってもいいですか。",
+          "raw": "今日、妻の誕生日なので早めに帰ってもいいですか。It's my wife's birthday today, may I go home early?",
+          "section": false,
+        },
+        {
+          "en": "Is it okay for students to use this copier?",
+          "jp": "このコピー機は学生が使ってもいいですか。",
+          "raw": "このコピー機は学生が使ってもいいですか。Is it okay for students to use this copier?",
+          "section": false,
+        },
+        {
+          "en": "Can I sit here?",
+          "jp": "ここに座ってもいいですか。",
+          "raw": "ここに座ってもいいですか。Can I sit here?",
+          "section": false,
+        },
+        {
+          "en": "Can I go home now?",
+          "jp": "もう帰ってもいいですか。",
+          "raw": "もう帰ってもいいですか。Can I go home now?",
+          "section": false,
+        },
+        {
+          "en": "Can I try on these clothes?  <br />",
+          "jp": "この服、試着してみてもいいですか。",
+          "raw": "この服、試着してみてもいいですか。Can I try on these clothes?  <br />",
+          "section": false,
+        },
+        {
+          "en": undefined,
+          "jp": "<br />文型イラスト〜てもいいですか2020.7.12日本語の初級文型「〜てもいいですか」の導入や練習に役立つ絵カードです。 １０枚１2０円で販売します。 購入はnoteでできます。 「〜てもいいですか」の絵カードを購入する...この文型が使われいる教科",
+          "raw": "     <br />文型イラスト〜てもいいですか2020.7.12日本語の初級文型「〜てもいいですか」の導入や練習に役立つ絵カードです。 １０枚１2０円で販売します。 購入はnoteでできます。 「〜てもいいですか」の絵カードを購入する...この文型が使われいる教科",
+          "section": false,
+        },
+      ],
+      "section": null,
+    },
+  ],
+  "link": "https://nihongokyoshi-net.com/2019/02/23/jlptn5-grammar-temoiidesuka/",
+}
+`;
+
+exports[`parse jlptn5-grammar-tewaikemasen 1`] = `
+{
+  "definitions": {
+    "[備考]": [
+      "話し言葉は「ちゃいけない」や「じゃいけない」となる。",
+    ],
+    "conjugation": [
+      "V(て形) + はいけない。",
+    ],
+    "jlpt": [
+      "N5",
+    ],
+    "meaning_en": [
+      ""must not"",
+      "Indicates a prohibition or regulation.",
+    ],
+    "meaning_jp": [
+      "禁止や規制を表す。",
+    ],
+    "name": "〜てはいけない",
+  },
+  "examples": [
+    {
+      "entries": [
+        {
+          "en": "You must not swim in this river.",
+          "jp": "この川で泳いではいけません。",
+          "raw": "この川で泳いではいけません。You must not swim in this river.",
+          "section": false,
+        },
+        {
+          "en": "You must not use your cell phone in class.",
+          "jp": "授業中に携帯電話を使ってはいけません。",
+          "raw": "授業中に携帯電話を使ってはいけません。You must not use your cell phone in class.",
+          "section": false,
+        },
+        {
+          "en": "You must not be noisy in the library.",
+          "jp": "図書館でうるさくしてはいけません。",
+          "raw": "図書館でうるさくしてはいけません。You must not be noisy in the library.",
+          "section": false,
+        },
+        {
+          "en": "You must not touch the pictures in this museum.",
+          "jp": "この美術館では絵に触ってはいけません。",
+          "raw": "この美術館では絵に触ってはいけません。You must not touch the pictures in this museum.",
+          "section": false,
+        },
+        {
+          "en": "You must not smoke here.",
+          "jp": "ここでタバコを吸ってはいけませんよ。",
+          "raw": "ここでタバコを吸ってはいけませんよ。You must not smoke here.",
+          "section": false,
+        },
+        {
+          "en": "You must not drink alcohol or smoke if you are under 20 years old.",
+          "jp": "２０歳未満の人はお酒を飲んだり、タバコを吸ってはいけません。",
+          "raw": "２０歳未満の人はお酒を飲んだり、タバコを吸ってはいけません。You must not drink alcohol or smoke if you are under 20 years old.",
+          "section": false,
+        },
+        {
+          "en": "You must not run in the hallway.",
+          "jp": "廊下を走ってはいけませんよ。",
+          "raw": "廊下を走ってはいけませんよ。You must not run in the hallway.",
+          "section": false,
+        },
+        {
+          "en": "This is a game where you must not laugh.",
+          "jp": "これは笑ってはいけないゲームです。",
+          "raw": "これは笑ってはいけないゲームです。This is a game where you must not laugh.",
+          "section": false,
+        },
+        {
+          "en": "You must not dye your hair in this school.",
+          "jp": "この学校では髪を染めてはいけません。",
+          "raw": "この学校では髪を染めてはいけません。You must not dye your hair in this school.",
+          "section": false,
+        },
+        {
+          "en": "You must not wear short skirts in this school.  この文型が使われいる教科書みんなの日本語　第１５課  みんなの日本語 初級I 第2版 本冊 Amazon 楽天市場 Yahooショッピング 紀伊國屋書店【教案】みんなの日本語初級１: 第１５課2017.11.12みんなの日本語第１５課の教案です。この課では「許可を求める表現」や「禁止の表現」を勉強します。１４課同様にて形を使った表現がたくさん出てくるので、て形が定着していない場合は最初にきちんと復習してから導入しましょう。..",
+          "jp": "この学校ではスカートを短くしてはいけません。",
+          "raw": "この学校ではスカートを短くしてはいけません。You must not wear short skirts in this school.  この文型が使われいる教科書みんなの日本語　第１５課  みんなの日本語 初級I 第2版 本冊 Amazon 楽天市場 Yahooショッピング 紀伊國屋書店【教案】みんなの日本語初級１：第１５課2017.11.12みんなの日本語第１５課の教案です。この課では「許可を求める表現」や「禁止の表現」を勉強します。１４課同様にて形を使った表現がたくさん出てくるので、て形が定着していない場合は最初にきちんと復習してから導入しましょう。..",
+          "section": false,
+        },
+      ],
+      "section": null,
+    },
+  ],
+  "link": "https://nihongokyoshi-net.com/2019/05/07/jlptn5-grammar-tewaikemasen/",
+}
+`;
+
+exports[`parse jlptn5-grammar-toki 1`] = `
+{
+  "definitions": {
+    "(例)": [
+      "When I leave the classroom, I turn off the light",
+      "教室を",
+      "出る",
+      "とき、電気を消します。",
+    ],
+    "V1の時制の考え方はV2がV1より先に行われるか、後に行われるかで決まる。V1がV2より先に行われる場合、V1は過去形（タ形）、V2より後に行われる場合は、V1は現在形（辞書形）になる。": [],
+    "When I enter the classroom, I turn on the light.": [
+      "教室に",
+      "入った",
+      "時、電気をつけます。",
+    ],
+    "conjugation": [
+      "V（普） + とき",
+      "イAい + とき",
+      "ナAな + とき",
+      "N + のとき",
+    ],
+    "jlpt": [
+      "N5",
+    ],
+    "meaning_en": [
+      "when",
+    ],
+    "meaning_jp": [
+      "「AときB」Bの状態、動作の時間をAで表す時に使われる。",
+    ],
+    "name": "〜とき",
+    "「AときB」のAの動詞（V1）の時制は、主文の時制つまり「AときB」のBの動詞の時制（V2）とは関係がない。そのため、英語から日本語訳を考えると、使い方を間違える学生がいるので要注意である。": [],
+  },
+  "examples": [
+    {
+      "entries": [
+        {
+          "en": "When we eat, we say "Itadakimasu".寝るとき、私は電気を消しません。When I go to bed, I don't turn off the lights.",
+          "jp": "V（辞書形）+ ときご飯を食べるとき、「いただきます」といいます。",
+          "raw": "V（辞書形）+ ときご飯を食べるとき、「いただきます」といいます。When we eat, we say "Itadakimasu".寝るとき、私は電気を消しません。When I go to bed, I don't turn off the lights.",
+          "section": false,
+        },
+        {
+          "en": "When you drink coffee, do you put sugar in it?",
+          "jp": "コーヒーを飲むとき、砂糖を入れますか。",
+          "raw": "コーヒーを飲むとき、砂糖を入れますか。When you drink coffee, do you put sugar in it?",
+          "section": false,
+        },
+        {
+          "en": "When I came to school, I met my friends.",
+          "jp": "学校に来るとき、友達に会いました。",
+          "raw": "学校に来るとき、友達に会いました。When I came to school, I met my friends.",
+          "section": false,
+        },
+        {
+          "en": "What do you use when you go to school?",
+          "jp": "学校に行くとき、何で行きますか。",
+          "raw": "学校に行くとき、何で行きますか。What do you use when you go to school?",
+          "section": false,
+        },
+        {
+          "en": "When people go abroad, they need their passport.",
+          "jp": "外国へ行くとき、パスポートが必要です。",
+          "raw": "外国へ行くとき、パスポートが必要です。When people go abroad, they need their passport.",
+          "section": false,
+        },
+        {
+          "en": "When you borrow books in the library, you need a library card.",
+          "jp": "図書館で本を借りるとき、図書カードが要ります。",
+          "raw": "図書館で本を借りるとき、図書カードが要ります。When you borrow books in the library, you need a library card.",
+          "section": false,
+        },
+        {
+          "en": "When crossing the street, please be careful of cars.V（ナイ形）+ ときわからないときは、早く先生にききましょう。When you don't understand something, ask the teacher as soon as possible.",
+          "jp": "道を渡るとき、車に気をつけてください。",
+          "raw": "道を渡るとき、車に気をつけてください。When crossing the street, please be careful of cars.V（ナイ形）+ ときわからないときは、早く先生にききましょう。When you don't understand something, ask the teacher as soon as possible.",
+          "section": false,
+        },
+        {
+          "en": "When I don't have time, I won't eat breakfast.",
+          "jp": "時間がないときは、朝ごはんを食べません。",
+          "raw": "時間がないときは、朝ごはんを食べません。When I don't have time, I won't eat breakfast.",
+          "section": false,
+        },
+        {
+          "en": "When you can't come, please contact me.V（タ形）+ ときご飯を食べたとき、「ごちそうさま」といいます。Say "Gochisosama" when you have eaten.",
+          "jp": "来られないときは、連絡してくださいね。",
+          "raw": "来られないときは、連絡してくださいね。When you can't come, please contact me.V（タ形）+ ときご飯を食べたとき、「ごちそうさま」といいます。Say "Gochisosama" when you have eaten.",
+          "section": false,
+        },
+        {
+          "en": "When there is an earthquake, hide under the desk first.",
+          "jp": "地震が起きたとき、まずは机の下に隠れましょう。",
+          "raw": "地震が起きたとき、まずは机の下に隠れましょう。When there is an earthquake, hide under the desk first.",
+          "section": false,
+        },
+        {
+          "en": "When I catch a cold, I take medicine and go to bed early.",
+          "jp": "風邪を引いたとき、薬を飲んで早く寝ます。",
+          "raw": "風邪を引いたとき、薬を飲んで早く寝ます。When I catch a cold, I take medicine and go to bed early.",
+          "section": false,
+        },
+        {
+          "en": "When I was young, I often went to karaoke with my friends.",
+          "jp": "イAい + とき若いとき、友達とよくカラオケに行きました。",
+          "raw": "イAい + とき若いとき、友達とよくカラオケに行きました。When I was young, I often went to karaoke with my friends.",
+          "section": false,
+        },
+        {
+          "en": "When I am sleepy, I always drink coffee.",
+          "jp": "眠いとき、いつもコーヒーを飲みます。",
+          "raw": "眠いとき、いつもコーヒーを飲みます。When I am sleepy, I always drink coffee.",
+          "section": false,
+        },
+        {
+          "en": "When I am lonely, I talk to my family on Skype.",
+          "jp": "寂しいとき、Skypeで家族と話します。",
+          "raw": "寂しいとき、Skypeで家族と話します。When I am lonely, I talk to my family on Skype.",
+          "section": false,
+        },
+        {
+          "en": "When I have free time, I usually play games.Nの + とき子供のとき、私は野菜が大嫌いでした。When I was a child, I hated vegetables.",
+          "jp": "ナAな + とき暇なとき、たいていゲームをします。",
+          "raw": "ナAな + とき暇なとき、たいていゲームをします。When I have free time, I usually play games.Nの + とき子供のとき、私は野菜が大嫌いでした。When I was a child, I hated vegetables.",
+          "section": false,
+        },
+        {
+          "en": "When I was in junior high school, I used to travel with my family.",
+          "jp": "中学生のとき、よく家族と旅行しました。",
+          "raw": "中学生のとき、よく家族と旅行しました。When I was in junior high school, I used to travel with my family.",
+          "section": false,
+        },
+        {
+          "en": "When you have a cold, you should go to bed early.",
+          "jp": "風邪のときは、早く寝たほうがいいですよ。",
+          "raw": "風邪のときは、早く寝たほうがいいですよ。When you have a cold, you should go to bed early.",
+          "section": false,
+        },
+        {
+          "en": "When I was 30 years old, I got married.  <br />",
+          "jp": "私は３０歳のとき、結婚しました。",
+          "raw": "私は３０歳のとき、結婚しました。When I was 30 years old, I got married.  <br />",
+          "section": false,
+        },
+        {
+          "en": undefined,
+          "jp": "<br />類似文型",
+          "raw": "     <br />類似文型",
+          "section": false,
+        },
+      ],
+      "section": null,
+    },
+  ],
+  "link": "https://nihongokyoshi-net.com/2018/06/09/jlptn5-grammar-toki/",
+}
+`;
+
+exports[`parse jlptn5-grammar-toomou 1`] = `
+{
+  "definitions": {
+    "This is used to express the speaker": [
+      "’",
+      "s conjecture or used when saying an opinion.",
+    ],
+    "conjugation": [
+      "V（普通形） + と思う",
+      "イA（普通形） + と思う",
+      "ナA（普通形） + と思う",
+      "N（普通形） + と思う",
+    ],
+    "jlpt": [
+      "N5",
+    ],
+    "meaning_en": [
+      "I think",
+    ],
+    "meaning_jp": [
+      "意見を述べたり、推測したことを述べる表現。",
+    ],
+    "name": "〜と思う",
+  },
+  "examples": [
+    {
+      "entries": [
+        {
+          "en": "I think it will rain this afternoon.",
+          "jp": "今日は午後から雨が降ると思います。",
+          "raw": "今日は午後から雨が降ると思います。I think it will rain this afternoon.",
+          "section": false,
+        },
+        {
+          "en": "I think Tom will come later.",
+          "jp": "トムさんはあとで来ると思います。",
+          "raw": "トムさんはあとで来ると思います。I think Tom will come later.",
+          "section": false,
+        },
+        {
+          "en": "I think Kim probably dislikes natto.",
+          "jp": "たぶん、キムさんは納豆が嫌いだと思います。",
+          "raw": "たぶん、キムさんは納豆が嫌いだと思います。I think Kim probably dislikes natto.",
+          "section": false,
+        },
+        {
+          "en": "I think Jessica has a boyfriend.",
+          "jp": "ジェシカさんには彼氏がいると思います。",
+          "raw": "ジェシカさんには彼氏がいると思います。I think Jessica has a boyfriend.",
+          "section": false,
+        },
+        {
+          "en": "I think I will be studying abroad next year.",
+          "jp": "来年は海外留学していると思います。",
+          "raw": "来年は海外留学していると思います。I think I will be studying abroad next year.",
+          "section": false,
+        },
+        {
+          "en": "I think I will be married and living happily in 10 years.",
+          "jp": "１０年後は結婚して、幸せに暮らしていると思います。",
+          "raw": "１０年後は結婚して、幸せに暮らしていると思います。I think I will be married and living happily in 10 years.",
+          "section": false,
+        },
+        {
+          "en": "Do you think this question will be on the test?",
+          "jp": "この問題、テストに出ると思いますか。",
+          "raw": "この問題、テストに出ると思いますか。Do you think this question will be on the test?",
+          "section": false,
+        },
+        {
+          "en": "I think you covered that yesterday, teacher.",
+          "jp": "先生、それは昨日やったと思います。",
+          "raw": "先生、それは昨日やったと思います。I think you covered that yesterday, teacher.",
+          "section": false,
+        },
+        {
+          "en": "I think the teacher has already gone home.",
+          "jp": "もう先生は帰ったと思います。",
+          "raw": "もう先生は帰ったと思います。I think the teacher has already gone home.",
+          "section": false,
+        },
+        {
+          "en": "I don't think I'm going to the drinking party tonight.",
+          "jp": "今夜の飲み会には行かないと思います。",
+          "raw": "今夜の飲み会には行かないと思います。I don't think I'm going to the drinking party tonight.",
+          "section": false,
+        },
+      ],
+      "section": "動詞文",
+    },
+    {
+      "entries": [
+        {
+          "en": "I think overeating is bad for your health.",
+          "jp": "食べ過ぎは体によくないと思います。",
+          "raw": "食べ過ぎは体によくないと思います。I think overeating is bad for your health.",
+          "section": false,
+        },
+        {
+          "en": "Be careful, I think it's still hot.",
+          "jp": "まだ熱いと思うから、気をつけて食べて。",
+          "raw": "まだ熱いと思うから、気をつけて食べて。Be careful, I think it's still hot.",
+          "section": false,
+        },
+        {
+          "en": "Do you think this person is young?",
+          "jp": "この人は若いと思いますか。",
+          "raw": "この人は若いと思いますか。Do you think this person is young?",
+          "section": false,
+        },
+        {
+          "en": "I think katakana is more difficult than hiragana.AndroidよりiPhoneのほうがいいと思います。I think iPhone is better than Android.",
+          "jp": "ひらがなよりカタカナのほうが難しいと思います。",
+          "raw": "ひらがなよりカタカナのほうが難しいと思います。I think katakana is more difficult than hiragana.AndroidよりiPhoneのほうがいいと思います。I think iPhone is better than Android.",
+          "section": false,
+        },
+        {
+          "en": "Do you think the cost of living in Japan is high?  <br />",
+          "jp": "日本の物価は高いと思いますか。",
+          "raw": "日本の物価は高いと思いますか。Do you think the cost of living in Japan is high?  <br />",
+          "section": false,
+        },
+        {
+          "en": undefined,
+          "jp": "<br />",
+          "raw": "     <br />",
+          "section": false,
+        },
+      ],
+      "section": "イ形容詞文",
+    },
+    {
+      "entries": [
+        {
+          "en": "I thought this character was famous, but you don't know it?",
+          "jp": "このキャラクターは有名だと思っていたんですが、知らないんですか。",
+          "raw": "このキャラクターは有名だと思っていたんですが、知らないんですか。I thought this character was famous, but you don't know it?",
+          "section": false,
+        },
+        {
+          "en": "I think Japanese convenience stores are more convenient than convenience stores in my country.",
+          "jp": "日本のコンビニは私の国のコンビニより便利だと思います。",
+          "raw": "日本のコンビニは私の国のコンビニより便利だと思います。I think Japanese convenience stores are more convenient than convenience stores in my country.",
+          "section": false,
+        },
+        {
+          "en": "I think James is happy that he has a girlfriend.",
+          "jp": "ジェームさんは彼女ができて、幸せだと思います。",
+          "raw": "ジェームさんは彼女ができて、幸せだと思います。I think James is happy that he has a girlfriend.",
+          "section": false,
+        },
+      ],
+      "section": "ナ形容詞文",
+    },
+    {
+      "entries": [
+        {
+          "en": "How old do you think this person is?",
+          "jp": "この人は何歳だと思いますか。",
+          "raw": "この人は何歳だと思いますか。How old do you think this person is?",
+          "section": false,
+        },
+        {
+          "en": "What do you think my girlfriend is like?",
+          "jp": "僕の彼女はどんな人だと思いますか。",
+          "raw": "僕の彼女はどんな人だと思いますか。What do you think my girlfriend is like?",
+          "section": false,
+        },
+        {
+          "en": undefined,
+          "jp": "この文型が登場する教科",
+          "raw": "この文型が登場する教科",
+          "section": false,
+        },
+      ],
+      "section": "名詞文",
+    },
+  ],
+  "link": "https://nihongokyoshi-net.com/2020/02/02/jlptn5-grammar-toomou/",
+}
+`;
+
+exports[`parse jlptn5-grammar-toteomo 1`] = `
+{
+  "definitions": {
+    "[備考]": [
+      "強調した言い方やカジュアルな言い方として「とっても」も使われる。",
+    ],
+    "jlpt": [
+      "N5",
+    ],
+    "meaning_en": [
+      ""very" Indicates that the degree is large.",
+    ],
+    "meaning_jp": [
+      "程度が大きいことを表す。",
+    ],
+    "name": "とても",
+  },
+  "examples": [
+    {
+      "entries": [
+        {
+          "en": "This book is very interesting.",
+          "jp": "この本、とても面白いですよ。",
+          "raw": "この本、とても面白いですよ。This book is very interesting.",
+          "section": false,
+        },
+        {
+          "en": "I am very busy every day.",
+          "jp": "毎日とても忙しいです。",
+          "raw": "毎日とても忙しいです。I am very busy every day.",
+          "section": false,
+        },
+        {
+          "en": "It's very cold in February.",
+          "jp": "２月はとても寒いです。",
+          "raw": "２月はとても寒いです。It's very cold in February.",
+          "section": false,
+        },
+        {
+          "en": "He works very hard.",
+          "jp": "彼はとてもよく働きます。",
+          "raw": "彼はとてもよく働きます。He works very hard.",
+          "section": false,
+        },
+        {
+          "en": "This food is very spicy, isn't it?",
+          "jp": "この料理、とても辛いですね。",
+          "raw": "この料理、とても辛いですね。This food is very spicy, isn't it?",
+          "section": false,
+        },
+        {
+          "en": "This bag is very expensive, so I can't afford it.",
+          "jp": "このカバンはとても高くて、買うことができません。",
+          "raw": "このカバンはとても高くて、買うことができません。This bag is very expensive, so I can't afford it.",
+          "section": false,
+        },
+        {
+          "en": "The movie I saw yesterday was very interesting.",
+          "jp": "昨日見た映画はとても面白かった。",
+          "raw": "昨日見た映画はとても面白かった。The movie I saw yesterday was very interesting.",
+          "section": false,
+        },
+        {
+          "en": "The cherry blossoms are very beautiful, aren't they?",
+          "jp": "桜はとてもきれいですね。",
+          "raw": "桜はとてもきれいですね。The cherry blossoms are very beautiful, aren't they?",
+          "section": false,
+        },
+        {
+          "en": "The food cooked by Anna is very delicious.",
+          "jp": "アンナさんが作った料理はとても美味しいです。",
+          "raw": "アンナさんが作った料理はとても美味しいです。The food cooked by Anna is very delicious.  ",
+          "section": false,
+        },
+      ],
+      "section": null,
+    },
+  ],
+  "link": "https://nihongokyoshi-net.com/2020/02/13/jlptn5-grammar-toteomo/",
+}
+`;
+
+exports[`parse jlptn5-grammar-wadoudesuka 1`] = `
+{
+  "definitions": {
+    "conjugation": [
+      "N + はどうですか",
+    ],
+    "jlpt": [
+      "N5",
+    ],
+    "meaning_en": [
+      ""How about / How is"",
+      "Used to ask about the listener’s impression or opinion.",
+    ],
+    "meaning_jp": [
+      "相手に意見や印象、感想など聞く時に使う。",
+    ],
+    "name": "〜はどうですか",
+  },
+  "examples": [
+    {
+      "entries": [
+        {
+          "en": "How is Japanese cuisine? Is it tasty?",
+          "jp": "日本料理はどうですか。美味しいですか。",
+          "raw": "日本料理はどうですか。美味しいですか。How is Japanese cuisine? Is it tasty?",
+          "section": false,
+        },
+        {
+          "en": "How was the movie? Was it interesting?",
+          "jp": "映画はどうでしたか。面白かったですか。",
+          "raw": "映画はどうでしたか。面白かったですか。How was the movie? Was it interesting?",
+          "section": false,
+        },
+        {
+          "en": "How was your trip? Was it fun?",
+          "jp": "旅行はどうでしたか。楽しかったですか。",
+          "raw": "旅行はどうでしたか。楽しかったですか。How was your trip? Was it fun?",
+          "section": false,
+        },
+        {
+          "en": "How is life in Japan?",
+          "jp": "日本の生活はどうですか。",
+          "raw": "日本の生活はどうですか。How is life in Japan?",
+          "section": false,
+        },
+        {
+          "en": "How are you doing these days?",
+          "jp": "仕事はどうですか。",
+          "raw": "仕事はどうですか。How are you doing these days?",
+          "section": false,
+        },
+        {
+          "en": "How are you doing these days?",
+          "jp": "最近どう？",
+          "raw": "最近どう？How are you doing these days?",
+          "section": false,
+        },
+        {
+          "en": "How are you doing?",
+          "jp": "調子はどうですか。",
+          "raw": "調子はどうですか。How are you doing?",
+          "section": false,
+        },
+        {
+          "en": "How is your Japanese study?",
+          "jp": "日本語の勉強はどうですか。",
+          "raw": "日本語の勉強はどうですか。How is your Japanese study?",
+          "section": false,
+        },
+        {
+          "en": "How are the toilets in Japan?",
+          "jp": "日本のトイレはどうですか。",
+          "raw": "日本のトイレはどうですか。How are the toilets in Japan?",
+          "section": false,
+        },
+        {
+          "en": "How is school? Is it fun?",
+          "jp": "学校はどうですか。楽しいですか。",
+          "raw": "学校はどうですか。楽しいですか。How is school? Is it fun?",
+          "section": false,
+        },
+        {
+          "en": "How is my Japanese? Is it correct?",
+          "jp": "僕の日本語はどう？ 間違ってない？",
+          "raw": "僕の日本語はどう？ 間違ってない？How is my Japanese? Is it correct?",
+          "section": false,
+        },
+        {
+          "en": "How is the train in Japan?",
+          "jp": "日本の電車はどうですか。",
+          "raw": "日本の電車はどうですか。How is the train in Japan?",
+          "section": false,
+        },
+        {
+          "en": undefined,
+          "jp": "この文型が登場する教科",
+          "raw": "この文型が登場する教科",
+          "section": false,
+        },
+      ],
+      "section": null,
+    },
+  ],
+  "link": "https://nihongokyoshi-net.com/2019/12/13/jlptn5-grammar-wadoudesuka/",
+}
+`;
+
+exports[`parse jlptn5-grammar-wokudasai 1`] = `
+{
+  "definitions": {
+    "conjugation": [
+      "N + をください",
+    ],
+    "jlpt": [
+      "N5",
+    ],
+    "meaning_en": [
+      ""please give me 〜"",
+      "A request expression. Used when ordering something at a restaurant, or when buying something at a store.",
+    ],
+    "meaning_jp": [
+      "依頼表現。",
+      "レストランで注文する時や、お店で商品する時などに使う。",
+    ],
+    "name": "〜をください",
+  },
+  "examples": [
+    {
+      "entries": [
+        {
+          "en": "Excuse me, can I have some water, please?",
+          "jp": "すみません、お水をください。",
+          "raw": "すみません、お水をください。Excuse me, can I have some water, please?",
+          "section": false,
+        },
+        {
+          "en": "Two hamburgers, please.",
+          "jp": "ハンバーガーを２つください。",
+          "raw": "ハンバーガーを２つください。Two hamburgers, please.",
+          "section": false,
+        },
+        {
+          "en": "Please give me this.",
+          "jp": "これをください。",
+          "raw": "これをください。Please give me this.",
+          "section": false,
+        },
+        {
+          "en": "Excuse me, can I have some cold medicine?",
+          "jp": "すみません、風邪薬をください。",
+          "raw": "すみません、風邪薬をください。Excuse me, can I have some cold medicine?",
+          "section": false,
+        },
+        {
+          "en": "Two 100 yen stamps, please.",
+          "jp": "１００円切手を２枚ください。",
+          "raw": "１００円切手を２枚ください。Two 100 yen stamps, please.",
+          "section": false,
+        },
+        {
+          "en": "Please give me a cup of coffee.",
+          "jp": "コーヒーをください。",
+          "raw": "コーヒーをください。Please give me a cup of coffee.",
+          "section": false,
+        },
+        {
+          "en": "I'm sorry, but please give me 5 more minutes.",
+          "jp": "すみませんが、あと５分ください。",
+          "raw": "すみませんが、あと５分ください。I'm sorry, but please give me 5 more minutes.",
+          "section": false,
+        },
+        {
+          "en": "Please give me some time to think",
+          "jp": "少し考える時間をください。",
+          "raw": "少し考える時間をください。Please give me some time to think",
+          "section": false,
+        },
+      ],
+      "section": null,
+    },
+  ],
+  "link": "https://nihongokyoshi-net.com/2020/02/27/jlptn5-grammar-wokudasai/",
+}
+`;
+
+exports[`parse jlptn5-grammar-yori 1`] = `
+{
+  "definitions": {
+    "conjugation": [
+      "N1は　N2より　Adjectiveです",
+    ],
+    "jlpt": [
+      "N5",
+    ],
+    "meaning_en": [
+      ""A is more ~ than B."",
+      "An expression that compares two things.",
+    ],
+    "meaning_jp": [
+      "２つの物を比較する表現。",
+    ],
+    "name": "AはBより・・・です。",
+  },
+  "examples": [
+    {
+      "entries": [
+        {
+          "en": "Mt. Everest is higher than Mt. Fuji.",
+          "jp": "エベレスト山は富士山より高いです。",
+          "raw": "エベレスト山は富士山より高いです。Mt. Everest is higher than Mt. Fuji.",
+          "section": false,
+        },
+        {
+          "en": "Tom is taller than James.",
+          "jp": "トムさんはジェームスさんより背が高いです。",
+          "raw": "トムさんはジェームスさんより背が高いです。Tom is taller than James.",
+          "section": false,
+        },
+        {
+          "en": "China is bigger than Japan.",
+          "jp": "中国は日本より大きいです。",
+          "raw": "中国は日本より大きいです。China is bigger than Japan.",
+          "section": false,
+        },
+        {
+          "en": "Pork is cheaper than beef.",
+          "jp": "豚肉は牛肉より安いです。",
+          "raw": "豚肉は牛肉より安いです。Pork is cheaper than beef.",
+          "section": false,
+        },
+        {
+          "en": "This bag is heavier than that bag.",
+          "jp": "このかばんはそのかばんより重いです。",
+          "raw": "このかばんはそのかばんより重いです。This bag is heavier than that bag.",
+          "section": false,
+        },
+        {
+          "en": "Taiwan is nearer than Singapore (from Japan).田中さんは木村さんより歌が上手です。Tanaka is a better singer than Kimura.",
+          "jp": "台湾はシンガポールよりも近いです。",
+          "raw": "台湾はシンガポールよりも近いです。Taiwan is nearer than Singapore (from Japan).田中さんは木村さんより歌が上手です。Tanaka is a better singer than Kimura.",
+          "section": false,
+        },
+        {
+          "en": "The train is faster than the bus.",
+          "jp": "電車はバスより速いです。",
+          "raw": "電車はバスより速いです。The train is faster than the bus.",
+          "section": false,
+        },
+        {
+          "en": "Kanji is harder than katakana.",
+          "jp": "漢字はカタカナより難しいです。",
+          "raw": "漢字はカタカナより難しいです。Kanji is harder than katakana.",
+          "section": false,
+        },
+        {
+          "en": "There are more people on weekends than on weekdays.",
+          "jp": "休日は平日より人が多いです。",
+          "raw": "休日は平日より人が多いです。There are more people on weekends than on weekdays.",
+          "section": false,
+        },
+        {
+          "en": "Today is busier than yesterday.  文型イラスト〜は〜より・・・です。2019.9.11日本語の初中級文型「〜で（手段・方法）」の導入や練習に役立つ絵カードです。 １０枚１１０円で販売します。 購入はnotedでできます。 「〜は〜より・・・です」の絵カードを購入する...この文型が登場する教科",
+          "jp": "今日は昨日より忙しいです。",
+          "raw": "今日は昨日より忙しいです。Today is busier than yesterday.  文型イラスト〜は〜より・・・です。2019.9.11日本語の初中級文型「〜で（手段・方法）」の導入や練習に役立つ絵カードです。 １０枚１１０円で販売します。 購入はnotedでできます。 「〜は〜より・・・です」の絵カードを購入する...この文型が登場する教科",
+          "section": false,
+        },
+      ],
+      "section": null,
+    },
+  ],
+  "link": "https://nihongokyoshi-net.com/2019/08/14/jlptn5-grammar-yori/",
+}
+`;
+
+exports[`parse jlptn5-grammar-zehi 1`] = `
+{
+  "definitions": {
+    "[備考]": [
+      "① 否定文と一緒には基本的に使わない。",
+      "例：",
+      "ぜひ",
+      "来ないでください。",
+    ],
+    "jlpt": [
+      "N5",
+    ],
+    "meaning_en": [
+      ""by all means / really"",
+      "An expression that emphasizes a request or desire.",
+    ],
+    "meaning_jp": [
+      "依頼や願望を強調して言う表現。",
+    ],
+    "name": "ぜひ",
+    "② 人の行為に対して使うため、自然現象には使えない。": [
+      "例：明日は嫌いな運動会だから、",
+      "ぜひ",
+      "雨が降って欲しい。",
+    ],
+  },
+  "examples": [
+    {
+      "entries": [
+        {
+          "en": "Please do come and visit us sometime.",
+          "jp": "ぜひ、今度うちへ遊びにきてください。",
+          "raw": "ぜひ、今度うちへ遊びにきてください。Please do come and visit us sometime.",
+          "section": false,
+        },
+        {
+          "en": "Please do contact me when you come to Tokyo.",
+          "jp": "東京に来るときは、ぜひ連絡ください。",
+          "raw": "東京に来るときは、ぜひ連絡ください。Please do contact me when you come to Tokyo.",
+          "section": false,
+        },
+        {
+          "en": "We are having a party on the weekend, so please do come.",
+          "jp": "週末、パーティーをするので、ぜひ来てください。",
+          "raw": "週末、パーティーをするので、ぜひ来てください。We are having a party on the weekend, so please do come.",
+          "section": false,
+        },
+        {
+          "en": "She says she wants to continue working after marriage, so I hope she will.",
+          "jp": "彼女は結婚しても仕事を続けたいと言っているので、ぜひ続けてほしい。",
+          "raw": "彼女は結婚しても仕事を続けたいと言っているので、ぜひ続けてほしい。She says she wants to continue working after marriage, so I hope she will.",
+          "section": false,
+        },
+        {
+          "en": "A: Would you like to go to Kyoto with me next time? I will show you many places. 
+B: Yes, I'd love to go.",
+          "jp": "A: 今度、一緒に京都へ行きませんか。色々な場所を案内しますよ。 
+B: はい、ぜひ行きたいです。",
+          "raw": "A：今度、一緒に京都へ行きませんか。色々な場所を案内しますよ。 B：はい、ぜひ行きたいです。A: Would you like to go to Kyoto with me next time? I will show you many places. B: Yes, I'd love to go.",
+          "section": false,
+        },
+        {
+          "en": "A: Why don't we go see a movie together? Tom and James will be there too. 
+B: Yes, I'd love to go see a movie with you.",
+          "jp": "A: 一緒に映画を見に行きませんか。トムさんとジェームスさんも行きます。 
+B: はい、ぜひ一緒に見に行きたいです。",
+          "raw": "A：一緒に映画を見に行きませんか。トムさんとジェームスさんも行きます。 B：はい、ぜひ一緒に見に行きたいです。A: Why don't we go see a movie together? Tom and James will be there too. B: Yes, I'd love to go see a movie with you.  ",
+          "section": false,
+        },
+      ],
+      "section": null,
+    },
+  ],
+  "link": "https://nihongokyoshi-net.com/2019/09/23/jlptn5-grammar-zehi/",
+}
+`;
