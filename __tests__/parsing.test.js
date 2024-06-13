@@ -51,7 +51,7 @@ test.concurrent.each(testCases)('parse %s', async (testCase) => {
   const filename = `${testCase}.html`
   const content = await fs.readFile(
     path.resolve('src/pages', filename),
-    'utf-8'
+    'utf-8',
   )
 
   const result = parse(content, filename)
