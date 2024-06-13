@@ -83,6 +83,7 @@ export function parse(content, fileName) {
  * @returns {({ meaning_jp: string[], meaning_en: string[], conjugation: string[], jlpt: string[], link: string } & Record<string, string[]>)}
  */
 export function parseDefinitions(content, $) {
+  // TODO: rewrite this to use cheerio
   const dom = new JSDOM(content)
   const document = dom.window.document
   // @ts-ignore
