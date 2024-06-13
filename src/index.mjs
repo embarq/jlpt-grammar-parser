@@ -138,28 +138,27 @@ export function parseDefinitions(content, $) {
   return _definitions
 }
 
-/**
- * @description
- * #### Tokens
- * - `\d+\.\s*`: Example index like in an ordered list. e.g. "1.", "2.", "3."
- * - named group `sectionV1`:
- *   - `[NVA]`: Part of speech. Noun, Verb, Adjective.
- *   - (`[\u3000-\u303f]` ~ `[\u3400-\u4dbf]`)`{1,10}す`: Up to 10 jp characters followed by "す" that indicates the section heading, e.g. "Vにいきます", "Nでした"
- * - named group `sectionV2`:
- *   - (`[\u3000-\u303f]` ~ `[\u3400-\u4dbf]`)`: Any amount of jp characters followed by:
- *   - `文`: The kanji for "sentence".
- * 
- * #### Additional reference:
- * 
- * - `[\u3000-\u303f]`: Japanese style punctuation. e.g. "、", "。", "「", "」"
- * - `[\u3040-\u309f]`: Hiragana. e.g. "あ", "い", "う", "え", "お"
- * - `[\u30a0-\u30ff]`: Katakana. e.g. "ア", "イ", "ウ", "エ", "オ"
- * - `[\uff00-\uffef]`: Roman characters + half-width katakana. e.g. "A", "B"
- * - `[\u4e00-\u9faf]|[\u3400-\u4dbf]`: Kanji. e.g. "一", "二", "三", "四", "五"
- * [Source](https://stackoverflow.com/a/58929040/6036154)
- */
-const ExampleSectionsRegexp =
-  /(?:\d+\.\s*(?<sectionV1>[NVA](?:[\u3040-\u309f]|[\u30a0-\u30ff]|[\uff00-\uffef]|[\u4e00-\u9faf]|[\u3400-\u4dbf]){1,10}す))|(\d+\.\s*(?<sectionV2>(?:[\u3040-\u309f]|[\u30a0-\u30ff]|[\uff00-\uffef]|[\u4e00-\u9faf]|[\u3400-\u4dbf])+文))/gm
+export function getExampleSectionsPattern() {
+  /** @description Noun, Verb, or an Adjective */
+  const partOfSpeech = `[NVA]`
+  /** @description Matches chars like "、", "。", "「", "」" */
+  const japaneseStylePunctuation = `[\u3000-\u303f]`
+  /** @description Matches chars like "あ", "い", "う", "え", "お" */
+  const hiragana = `[\u3040-\u309f]`
+  /** @description Matches chars like "ア", "イ", "ウ", "エ", "オ" */
+  const katakana = `[\u30a0-\u30ff]`
+  /** @description Matches chars like "A", "B" */
+  const roman = `[\uff00-\uffef]`
+  /** @description Matches chars like "一", "二", "三", "四", "五" */
+  const kanji = `[\u4e00-\u9faf]|[\u3400-\u4dbf]`
+  const jpWordChars = `${hiragana}|${katakana}|${kanji}|${roman}`
+  /** @description Matches words like "1. Vにいきます" */
+  const sectionV1Group = `(?:\\d+\\.\\s*(?<sectionV1>${partOfSpeech}(?:${jpWordChars}){1,10}す))`
+  /** @description Matches words like "1. 動詞文" */
+  const sectionV2Group = `(\\d+\\.\\s*(?<sectionV2>(?:${jpWordChars})+文))`
+
+  return RegExp(`${sectionV1Group}|${sectionV2Group}`, 'gm')
+}
 
 /**
  * @param {string} examplesRaw
@@ -167,12 +166,12 @@ const ExampleSectionsRegexp =
  */
 export function parseExamples(examplesRaw, meta) {
   const examplesRawSrc = examplesRaw.replace('例文', '')
-
-  const hasSections = ExampleSectionsRegexp.test(examplesRawSrc)
+  const sectionsPattern = getExampleSectionsPattern()
+  const hasSections = sectionsPattern.test(examplesRawSrc)
   // Format and remap example sentences
   if (hasSections) {
     const parsedSections = examplesRawSrc
-      .replaceAll(ExampleSectionsRegexp, '\n$&\n')
+      .replaceAll(sectionsPattern, '\n$&\n')
       .split('\n')
       .filter(Boolean)
       .map(parseExamplesSection)
@@ -192,55 +191,73 @@ export function parseExamples(examplesRaw, meta) {
  * @returns
  */
 export function parseExamplesSection(entry) {
-  return entry
-    // Split sentences into separate lines for easier parsing
-    .replaceAll(
-      RegExp(`([\\w\\d]\\s?[.。!！?？]+)((?:[A-Z][:：：](?:[\u3040-\u309f]|[\u30a0-\u30ff]|[\uff00-\uffef]|[\u4e00-\u9faf]|[\u3400-\u4dbf]))|(?:[\u3040-\u309f]|[\u30a0-\u30ff]|[\uff00-\uffef]|[\u4e00-\u9faf]|[\u3400-\u4dbf]))`, 'g'),
-      '$1\n\n$2',
-    )
-    .split('\n')
-    .filter(Boolean)
-    .map((sentenceRaw) => {
-      const [sectionMatch] = [...sentenceRaw.matchAll(ExampleSectionsRegexp)]
-      const section =
-        (sectionMatch?.groups?.sectionV1 || sectionMatch?.groups?.sectionV2) ??
-        null
+  const sectionsPattern = getExampleSectionsPattern()
+  const jpWordChars =
+    '[\u3040-\u309f]|[\u30a0-\u30ff]|[\uff00-\uffef]|[\u4e00-\u9faf]|[\u3400-\u4dbf]'
+  const engSentenceEndingChar = '[\\w\\d]\\s?'
+  const sentenceTerminator = '[.。!！?？]'
+  const dialogueMarker = '[A-Z][:：：]'
+  /**
+   * @emits /([\w\d]\s?[.。!！?？]+)((?:[A-Z][:：：](?:[\u3040-\u309f]|[\u30a0-\u30ff]|[\uff00-\uffef]|[\u4e00-\u9faf]|[\u3400-\u4dbf]))|(?:[\u3040-\u309f]|[\u30a0-\u30ff]|[\uff00-\uffef]|[\u4e00-\u9faf]|[\u3400-\u4dbf]))/g
+   */
+  const sentenceSplitPattern = `(${engSentenceEndingChar}${sentenceTerminator}+)((?:${dialogueMarker}(?:${jpWordChars}))|(?:${jpWordChars}))`
 
-      if (section) {
-        return {
-          en: '',
-          jp: section,
-          raw: sentenceRaw,
-          section,
-        }
-      }
+  return (
+    entry
+      // Split sentences into separate lines for easier parsing
+      .replaceAll(RegExp(sentenceSplitPattern, 'g'), '$1\n\n$2')
+      .split('\n')
+      .filter(Boolean)
+      .map(
+        /**
+         *
+         * @param {*} sentenceRaw
+         * @returns
+         */
+        (sentenceRaw) => {
+          const [sectionMatch] = [...sentenceRaw.matchAll(sectionsPattern)]
+          const section =
+            (sectionMatch?.groups?.sectionV1 ||
+              sectionMatch?.groups?.sectionV2) ??
+            null
 
-      const dialogueSyntaxMatch = sentenceRaw.match(/([A-Z][：:])/gi)
-      const isDialogue = dialogueSyntaxMatch?.length ?? false
-      const sentence = isDialogue
-        ? sentenceRaw.replace(
-            /([。？！])\s*([A-Z][：:]\s*)([\w.?!]+)/,
-            '$1\n$2$3',
-          )
-        : sentenceRaw.replace(/([。？！])(\s*\w)/, '$1\n$2')
-      const [jp, en] = sentence
-        .split('\n')
-        .filter(Boolean)
-        .map((sentence) =>
-          sentence
-            .replace(/^。/, '')
-            .replace(/[：]/gi, ': ')
-            .replace(/[A-Z][:：]/gi, '\n$&')
-            .replace(/^\n/, '')
-            .trim(),
-        )
-      return {
-        en,
-        jp,
-        raw: sentenceRaw,
-        section: false,
-      }
-    })
+          if (section) {
+            return {
+              en: '',
+              jp: section,
+              raw: sentenceRaw,
+              section,
+            }
+          }
+
+          const dialogueSyntaxMatch = sentenceRaw.match(/([A-Z][：:])/gi)
+          const isDialogue = dialogueSyntaxMatch?.length ?? false
+          const sentence = isDialogue
+            ? sentenceRaw.replace(
+                /([。？！])\s*([A-Z][：:]\s*)([\w.?!]+)/,
+                '$1\n$2$3',
+              )
+            : sentenceRaw.replace(/([。？！])(\s*\w)/, '$1\n$2')
+          const [jp, en] = sentence
+            .split('\n')
+            .filter(Boolean)
+            .map((sentence) =>
+              sentence
+                .replace(/^。/, '')
+                .replace(/[：]/gi, ': ')
+                .replace(/[A-Z][:：]/gi, '\n$&')
+                .replace(/^\n/, '')
+                .trim(),
+            )
+          return {
+            en,
+            jp,
+            raw: sentenceRaw,
+            section: false,
+          }
+        },
+      )
+  )
 }
 
 export function groupEntries(data) {
