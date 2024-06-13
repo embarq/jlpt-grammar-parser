@@ -79,10 +79,9 @@ export function parse(content, fileName) {
 
 /**
  * @param {string} content
- * @param {cheerio.CheerioAPI} $
  * @returns {({ meaning_jp: string[], meaning_en: string[], conjugation: string[], jlpt: string[], link: string } & Record<string, string[]>)}
  */
-export function parseDefinitions(content, $) {
+export function parseDefinitions(content) {
   // TODO: rewrite this to use cheerio
   const dom = new JSDOM(content)
   const document = dom.window.document
@@ -143,6 +142,7 @@ export function getExampleSectionsPattern() {
   /** @description Noun, Verb, or an Adjective */
   const partOfSpeech = `[NVA]`
   /** @description Matches chars like "、", "。", "「", "」" */
+  // eslint-disable-next-line no-unused-vars
   const japaneseStylePunctuation = `[\u3000-\u303f]`
   /** @description Matches chars like "あ", "い", "う", "え", "お" */
   const hiragana = `[\u3040-\u309f]`
@@ -165,7 +165,7 @@ export function getExampleSectionsPattern() {
  * @param {string} examplesRaw
  * @returns {{section?: null|string, entries: Array<{jp?: string, en?: string}>}[]}
  */
-export function parseExamples(examplesRaw, meta) {
+export function parseExamples(examplesRaw) {
   const examplesRawSrc = examplesRaw.replace('例文', '')
   const sectionsPattern = getExampleSectionsPattern()
   const hasSections = sectionsPattern.test(examplesRawSrc)
