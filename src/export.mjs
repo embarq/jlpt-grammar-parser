@@ -13,6 +13,18 @@ if (path.resolve(process.argv[1]) === path.resolve(__filename)) {
 async function main() {
   const raw = await fs.readFile(path.resolve('dist/export-src.json'), 'utf-8')
   const data = JSON.parse(raw)
+  // prettier-ignore
+  const examplesTempl = _.template([
+    `<% _.forEach(data, function(section, i) { %>`,
+      `<details <%= i === 0 ? 'open' : '' %>>`,
+        `<summary class="examples-section-title"><%= _.defaultTo(section.section, 'Examples') %></summary>`,
+        `<% _.forEach(section.entries, function(entry) { %>`,
+          `<dt class="example-jp"><%= entry.jp %></dt>`,
+          `<dd class="example-en"><%= entry.en %></dd>`,
+        `<% }); %>`,
+      `</details>`,
+    `<% }); %>`,
+  ].join(''))
   const tsvstr = tsv.stringify(
     data.map(
       ({
@@ -24,7 +36,7 @@ async function main() {
         Conjugation: conjugation?.join('<br/>') ?? '',
         'Meaning eng': meaning_en?.join('<br/>') ?? '',
         'Meaning jp': meaning_jp?.join('<br/>') ?? '',
-        Examples: JSON.stringify(examples),
+        Examples: examplesTempl({ data: examples }),
         'Grammar Notes': notes?.join('<br/>') ?? '',
         'JLPT level': jlpt?.join('<br/>') ?? '',
         Link: link,
