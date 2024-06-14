@@ -32,5 +32,5 @@ async function main() {
     ),
   )
 
-  await fs.writeFile(path.resolve('dist/export.tsv'), tsvstr, 'utf-8')
+  await fs.writeFile(path.resolve(`dist/export-${Date.now() / 1000}.tsv`), tsvstr, 'utf-8')
 }
